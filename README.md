@@ -78,11 +78,21 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 #### Button to close modal
 
+## Future Features
+
+- 'Congratulations you finished the game!' modal with moves count and timer
+- A video with the yoga moves beside the same with responive design to take up the screen real estate on monitor
+- An option to input a username
+- A limited number of tries before the game is over
+- Fun sounds when the cards are flipped
+- Fun sounds when the cards are matched
+- A fun sound when you finish the game
+- Music playing while you play the game
+
 ## Design
 
 ### Design Choices
 
-Vinyasa, purple, pink, energy.
 ### Typography
 
 ### Color
