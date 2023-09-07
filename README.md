@@ -165,6 +165,8 @@ The main color I am taking from the secondary color palette is: Pink
 
 #### CSS validation
 
+#### JS Hint
+
 ### Accessibility and Lighthouse
 
 ### Manual testing
