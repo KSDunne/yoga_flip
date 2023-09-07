@@ -65,9 +65,17 @@ Vinyasa, purple, pink, energy.
 
 Since the theme for this game is energising Vinyasa yoga I chose bright colors that give the user an energetic feeling. I also kept accessibility in mind when choosing colors and I used a color blind friendly palette for inspiration. Colors were adapted from palettes generated using [Venngage's accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator).
 
-Primary Colors - White / Purple
+#### Primary accessible color palette
 
-Secondary Colors - Pink
+The main colors I am taking from the primary color palette are: White / Purple / Green
+
+![Primary accessible color palette](docs/primary_accessible_colors.webp)
+
+#### Secondary accessible color palette
+
+The main color I am taking from the secondary color palette is: Pink
+
+![Secondary accessible color palette](docs/secondary_accessible_colors.webp)
 
 ## Wireframes
 
