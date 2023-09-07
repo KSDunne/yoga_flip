@@ -81,12 +81,13 @@ Secondary Colors - Pink
 
 - HTML
 - CSS
+- JavaScript
 
 ### Frameworks & Tools
 
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
-- [Code Anywhere Cloud IDE](https://app.codeanywhere.com/)
+- [Visual Studio Code IDE](https://code.visualstudio.com/)
 - [Balsamiq](https://balsamiq.com/wireframes/)
 - [Favicon](https://favicon.io/favicon-generator/#google_vignette)
 - [Venngage's Accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator)
