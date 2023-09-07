@@ -96,6 +96,8 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ### Typography
 
+Google Fonts were used to import Poppins and Oxygen fonts into styles.css. A sans-serif generic font was chosen as a back-up. These were chosen as they are easy to read and sans-serif fonts are common in modern website design.
+
 ### Color
 
 Since the theme for this game is energising Vinyasa yoga I chose bright colors that give the user an energetic feeling. I also kept accessibility in mind when choosing colors and I used a color blind friendly palette for inspiration. Colors were adapted from palettes generated using [Venngage's accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator).
