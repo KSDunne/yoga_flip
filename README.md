@@ -10,7 +10,7 @@ Link to live website:
 
 ## Purpose of the project
 
-Yoga Flip is a game that provides value to the user through an educational aspect. It gives the name of the yoga pose after each successful match. This is the name of the yoga pose shown on the card.
+Yoga Flip is a version of the classic card memory game. It provides value to the user through an educational aspect. This game gives the name of the yoga pose shown on the cards, after each successful match. There is a bonus challenge feature to this game where the user can click the 'challenge' button at any time during the game and get a random pose shown to them and they are challenged to do the pose for 20 seconds if their fitness allows. There are also social links in the footer of the main game page to encourage the user to connect with the yoga studio business, which offers in-person classes. The color theme of yoga flip was specifically chosen to provide feel-good and energizing emotions. Bright anchor colors were chosen. These are; purple, pink and white. The whole theme of this project is based around energising Vinyasa yoga.
 
 ## Table of contents
 
