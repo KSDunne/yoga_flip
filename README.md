@@ -61,9 +61,19 @@ Secondary Colors - Pink
 
 ### Index Page Wireframes
 
-### Around The World Page Wireframes
+![Index iPhone SE](docs/wireframes/index_iphonese.png)
 
-### Contact Page Wireframes
+![Index Tablet](docs/wireframes/index_tablet.png)
+
+![Index Monitor](docs/wireframes/index_monitor.png)
+
+### Challenge Modal Wireframes
+
+![Challenge Modal iPhone SE](docs/wireframes/challenge_modal_iphonese.png)
+
+![Challenge Modal Tablet](docs/wireframes/challenge_modal_tablet.png)
+
+![Challenge Modal Monitor](docs/wireframes/challenge_modal_monitor.png)
 
 ## Technology
 
