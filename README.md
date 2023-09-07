@@ -172,4 +172,4 @@ Love Maths
 
 ## Acknowledgements
 
-Thank you to friends, family and pets for the massive support. Also thank you to Laura, the leader of our CI cohort :sparkles:
+Thank you to friends, family and pets for the massive support. Also thank you to the leader of our CI cohort :sparkles:
