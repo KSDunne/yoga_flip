@@ -1,39 +1,164 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Yoga Flip
 
-Welcome,
+(Developer: Katie Dunne)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+AmIResponsive Image
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Live website
 
-## Codeanywhere Reminders
+Link to live website: 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Purpose of the project
 
-`python3 -m http.server`
+Yoga Flip is a game that provides value to the user through an educational aspect. It gives the name of the yoga pose after each successful match. This is the name of the yoga pose shown on the card.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Table of contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  * [User experience (UX)](#user-experience-ux)
+  * [User stories](#user-stories)
+  * [Features](#features)
+  * [Future features](#future-features)
+  * [Design](#design)
+  * [Wireframes](#wireframes)
+  * [Technology](#technology)
+  * [Testing](#testing)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+  * [Acknowledgements](#acknowledgements)
 
-`http_server`
+## User experience (UX)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Key project goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Target audience
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User requirements and expectations
 
-To log into the Heroku toolbelt CLI:
+## User stories
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Main Game Page
 
----
+### Modal
 
-Happy coding!
+## Design
+
+### Design Choices
+
+Vinyasa, purple, pink, energy.
+### Typography
+
+### Color
+
+Since this business offers outdoor services such as horse riding lessons I chose earthy colors. I also kept accessibility in mind when choosing colors and I used a color blind friendly palette for inspiration. Colors were adapted from palettes generated using [Venngage's accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator).
+
+Primary Colors - White / Purple
+
+Secondary Colors - Pink
+
+## Wireframes
+
+### Index Page Wireframes
+
+### Around The World Page Wireframes
+
+### Contact Page Wireframes
+
+## Technology
+
+### Languages
+
+- HTML
+- CSS
+
+### Frameworks & Tools
+
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Code Anywhere Cloud IDE](https://app.codeanywhere.com/)
+- [Balsamiq](https://balsamiq.com/wireframes/)
+- [Favicon](https://favicon.io/favicon-generator/#google_vignette)
+- [Venngage's Accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [Google Maps](https://www.google.com/maps)
+- [YouTube](https://www.youtube.com/)
+
+## Testing
+
+### Code validation
+
+#### HTML validation
+
+#### CSS validation
+
+### Accessibility and Lighthouse
+
+### Manual testing
+
+#### Responsiveness of features tested using Chrome DevTools
+
+#### Browser compatibility testing
+
+#### Testing all links on the site
+
+### Feature testing table
+
+### User story testing
+
+### Fixed bugs
+
+### Unfixed bugs
+
+### Supported screens and browsers
+
+#### Screens
+
+ - iPhone SE, 375px wide. Also looks good down to 300px according to devtools
+ - iPad Mini, 768px wide
+ - Nest Hub Max, 1280px wide
+
+#### Browsers
+
+ - Chrome
+ - Edge
+ - Firefox
+ - Safari
+ - Opera
+
+## Deployment
+
+### How this site was deployed
+
+- In the GitHub repository, go to the Settings tab, then choose Pages from the left hand menu
+- Make sure that source is set to 'Deploy from Branch'
+- Main branch needs to be selected and folder should be set to root
+- Under branch, click save
+- Revisit the code tab and wait a few minutes for the build to finish, then refresh your repository
+- There will be an option to click on 'github-pages', on the right hand side, in the environments section
+- Click on 'view deployment' to see the live site.
+
+  The live link can be found here -
+
+## Credits
+
+### Code
+
+Love Maths
+
+### Media
+
+### Inspiration from other memory game websites
+
+### Inspiration from other yoga websites
+
+### Inspiration for structure from other CI students
+
+## Acknowledgements
+
+Thank you to friends, family and pets for the massive support and to Laura, the leader of our CI cohort :sparkles:
