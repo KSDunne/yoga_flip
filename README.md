@@ -80,8 +80,8 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ## Future Features
 
-- 'Congratulations you finished the game!' modal with moves count and timer
-- A video with the yoga moves beside the same with responive design to take up the screen real estate on monitor
+- 'Congratulations you finished the game!' modal with moves count and time it took you to finish the game
+- A video with the yoga moves beside the game with responive design to take up the screen real estate on monitor
 - An option to input a username
 - A limited number of tries before the game is over
 - Fun sounds when the cards are flipped
