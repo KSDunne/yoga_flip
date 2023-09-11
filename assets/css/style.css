@@ -1,3 +1,26 @@
-/*Note: All code in this project was arranged for a 'mobile-first' design*/
-/*Importing Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins:wght@500&display=swap');
+/* Note: All code in this project was arranged for a 'mobile-first' design */
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins:wght@500&display=swap");
+
+/* wild card selector to override browser default styles */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  background-color: lightpink;
+}
+
+/* main content */
+main {
+  background-color: lightblue;
+}
+
+/* footer */
+footer {
+  background-color: lightgoldenrodyellow;
+}
