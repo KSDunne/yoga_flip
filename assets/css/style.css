@@ -31,7 +31,7 @@ h1 {
   color: #252525;
   text-align: center;
   font-size: 170%;
-  padding: 8% 10% 10% 10%;
+  padding: 14% 10% 4% 10%;
 }
 
 /* main content */
@@ -94,7 +94,7 @@ footer {
   /* header */
   h1 {
     font-size: 200%;
-    padding: 4% 2% 2% 2%;
+    padding: 10% 6% 2% 6%;
   }
 }
 
@@ -103,7 +103,7 @@ footer {
   /* header */
   h1 {
     font-size: 220%;
-    padding: 3% 2% 2% 2%;
+    padding: 8% 6% 2% 6%;
   }
 }
 
@@ -112,6 +112,6 @@ footer {
   /* header */
   h1 {
     font-size: 240%;
-    padding: 2% 2% 2% 2%;
+    padding: 8% 6% 2% 6%;
   }
 }
