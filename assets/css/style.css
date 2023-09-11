@@ -41,6 +41,15 @@ main {
   flex: 1 0 auto;
 }
 
+/* memory game */
+.grid-section-area {
+  height: 650px;
+  width: 650px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* footer */
 footer {
   background-color: lightgoldenrodyellow;
