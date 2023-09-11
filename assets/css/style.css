@@ -10,13 +10,13 @@
   box-sizing: border-box;
 }
 
-/* General styles */
+/* general styles */
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: #3d3d3d;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 /* header */
@@ -25,13 +25,16 @@ header {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
 }
 
 /* main content */
 main {
   background-color: lightblue;
-  /* Push footer down */
+  /* push footer down */
   flex: 1 0 auto;
 }
 
