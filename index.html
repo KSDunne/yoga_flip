@@ -1,168 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- search engine meta tags -->
-    <meta name="description" content="A memory card game with a yoga theme">
-    <meta name="keywords" content="game, memory game, card game, yoga, yoga game, yoga pose">
+    <meta name="description" content="A memory card game with a yoga theme" />
+    <meta
+      name="keywords"
+      content="game, memory game, card game, yoga, yoga game, yoga pose"
+    />
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- title -->
     <title>Yoga Flip</title>
 
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  </head>
 
-</head>
-<body>
+  <body>
     <!--header -->
     <header>
-    <h1 class="game-title"><i class="fa-regular fa-star"></i> Yoga Flip</h1>
+      <h1 class="game-title"><i class="fa-regular fa-star"></i> Yoga Flip</h1>
     </header>
     <div class="moves-area">Moves: 0</div>
 
     <div class="time-area">Time: 00:00:00</div>
 
     <div class="overall-game-area">
-            <!-- credit 1 for grid section area: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae -->
-            <!-- credit 2 for grid section area: https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game -->
-            <!-- start of grid section playing area -->
-            <section class="grid-section-area" aria-label="memory grid game">
-                <div class="cards" data-image="downwarddog">
-                    <img src="assets/images/downwarddog.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="downwarddog">
-                    <img src="assets/images/downwarddog.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="cobra">
-                    <img src="assets/images/cobra.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="cobra">
-                    <img src="assets/images/cobra.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="childspose">
-                    <img src="assets/images/childspose.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="childspose">
-                    <img src="assets/images/childspose.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="plank">
-                    <img src="assets/images/plank.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="plank">
-                    <img src="assets/images/plank.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="spinaltwist">
-                    <img src="assets/images/spinaltwist.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="spinaltwist">
-                    <img src="assets/images/spinaltwist.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="warrior2">
-                    <img src="assets/images/warrior2.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="warrior2">
-                    <img src="assets/images/warrior2.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="happybaby">
-                    <img src="assets/images/happybaby.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="happybaby">
-                    <img src="assets/images/happybaby.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="lunge">
-                    <img src="assets/images/lunge.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-                <div class="cards" data-image="lunge">
-                    <img src="assets/images/lunge.jpg" class="front" alt="yoga card front">
-                    <img src="assets/images/back_card.jpg" class="back" alt="yoga card back">
-                </div>
-            </section>
-            <!-- end of grid section playing area -->
+      <!-- credit 1 for grid section area: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae -->
+      <!-- credit 2 for grid section area: https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game -->
+      <!-- start of grid section playing area -->
+      <section class="grid-section-area" aria-label="memory grid game">
+        <div class="cards" data-image="downwarddog">
+          <img
+            src="assets/images/downwarddog.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="downwarddog">
+          <img
+            src="assets/images/downwarddog.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="cobra">
+          <img
+            src="assets/images/cobra.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="cobra">
+          <img
+            src="assets/images/cobra.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="childspose">
+          <img
+            src="assets/images/childspose.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="childspose">
+          <img
+            src="assets/images/childspose.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="plank">
+          <img
+            src="assets/images/plank.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="plank">
+          <img
+            src="assets/images/plank.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="spinaltwist">
+          <img
+            src="assets/images/spinaltwist.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="spinaltwist">
+          <img
+            src="assets/images/spinaltwist.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="warrior2">
+          <img
+            src="assets/images/warrior2.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="warrior2">
+          <img
+            src="assets/images/warrior2.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="happybaby">
+          <img
+            src="assets/images/happybaby.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="happybaby">
+          <img
+            src="assets/images/happybaby.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="lunge">
+          <img
+            src="assets/images/lunge.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+        <div class="cards" data-image="lunge">
+          <img
+            src="assets/images/lunge.jpg"
+            class="front"
+            alt="yoga card front"
+          />
+          <img
+            src="assets/images/back_card.jpg"
+            class="back"
+            alt="yoga card back"
+          />
+        </div>
+      </section>
+      <!-- end of grid section playing area -->
     </div>
 
     <div class="pose-name-area">Pose name: Child's pose</div>
 
     <div class="challenge-area">
-        <button class="challenge-btn">Challenge</button>
+      <button class="challenge-btn">Challenge</button>
     </div>
 
     <div class="reset area">
-        <button class="reset-btn" onclick="reset()">Reset</button>
+      <button class="reset-btn" onclick="reset()">Reset</button>
     </div>
 
     <!-- credit for footer: whisper rs portfolio project 1 -->
     <!-- footer -->
     <footer>
-        <div class="container-footer-divs">
-            <div class="footer-divs">
-                <a href="index.html" aria-label="Link to the home page in the footer">
-                    <img src="assets/images/main_logo_black_yf.webp" class="footer-logo"
-                        alt="Whisper Riding School Logo"
-                        aria-label="This logo is clickable, it is a link to the home page in the footer"></a>
-            </div>
-            <div class="footer-divs">
-                <!-- credit for socials code: love-running-v3 newest version August 2023 -->
-                <ul class="socials">
-                    <li>
-                        <a href="https://facebook.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (opens in a new tab)"><i
-                                class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter page (opens in a new tab)"><i
-                                class="fa-brands fa-square-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Instagram page (opens in a new tab)"><i
-                                class="fa-brands fa-square-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://youtube.com" target="_blank" rel="noopener"
-                            aria-label="Visit our YouTube page (opens in a new tab)"><i
-                                class="fa-brands fa-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-divs">
-                <p>© Katie Dunne 2023</p>
-            </div>
-            <div class="footer-divs git-hub-div"><a href="https://github.com/ksdunne" target="_blank" rel="noopener"
-                    aria-label="Visit my GitHub page (opens in a new tab)"><i
-                        class="fa-brands fa-github socials"></i></a>
-            </div>
+      <div class="container-footer-divs">
+        <div class="footer-divs">
+          <a href="index.html" aria-label="Link to the home page in the footer">
+            <img
+              src="assets/images/main_logo_black_yf.webp"
+              class="footer-logo"
+              alt="Whisper Riding School Logo"
+              aria-label="This logo is clickable, it is a link to the home page in the footer"
+          /></a>
         </div>
+        <div class="footer-divs">
+          <!-- credit for socials code: love-running-v3 newest version August 2023 -->
+          <ul class="socials">
+            <li>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-divs">
+          <p>© Katie Dunne 2023</p>
+        </div>
+        <div class="footer-divs git-hub-div">
+          <a
+            href="https://github.com/ksdunne"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit my GitHub page (opens in a new tab)"
+            ><i class="fa-brands fa-github socials"></i
+          ></a>
+        </div>
+      </div>
     </footer>
 
     <!-- credit for font awesome inspiration: love-maths-2.0-sourcecode -->
     <!-- font awesome script-->
-    <script src="https://kit.fontawesome.com/24d25c0805.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/24d25c0805.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- yoga flip js script-->
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
