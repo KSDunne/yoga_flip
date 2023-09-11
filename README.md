@@ -6,7 +6,7 @@ AmIResponsive Image
 
 ## Live website
 
-Link to live website: 
+Link to live website:
 
 ## Purpose of the project
 
@@ -14,17 +14,17 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ## Table of contents
 
-  * [User experience (UX)](#user-experience-ux)
-  * [User stories](#user-stories)
-  * [Features](#features)
-  * [Future features](#future-features)
-  * [Design](#design)
-  * [Wireframes](#wireframes)
-  * [Technology](#technology)
-  * [Testing](#testing)
-  * [Deployment](#deployment)
-  * [Credits](#credits)
-  * [Acknowledgements](#acknowledgements)
+- [User experience (UX)](#user-experience-ux)
+- [User stories](#user-stories)
+- [Features](#features)
+- [Future features](#future-features)
+- [Design](#design)
+- [Wireframes](#wireframes)
+- [Technology](#technology)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 ## User experience (UX)
 
@@ -36,17 +36,17 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ## User stories
 
-* As a site visitor, I am first assessing if this is an intuitive and eye-catching game that I would like to play
-* As a site visitor, I will initaially see a grid style game with 16 cards. I will initailly be able to see the back-side of the cards
-* As a site visitor, I will be able to click two cards at a time. They will flip over and stay flipped over if I have matched them
-* As a site visitor, I will see that the timer starts when I flip the first card
-* As a site visitor, I will see that a move is logged when the second card is flipped
-* As a site visitor, I will see that the timer stops once I finish matching all of the 16 cards on the grid
-* As a site visitor, I will be able to click a button that says "challenge" to get a random yoga pose to try at home for fun. This will pop up via a modal.
-* As a site visitor, I will be able to close this modal whenever I want
-* As a site visitor, I will be able to click a "reset" button at any time during the game to flip all the cards over to start again
-* As a site visitor, I will be able to see links in the footer for social media sites to a specific yoga studio. This will encourage me to go there for in-person lessons
-* As a site visitor, the value I get from this site is; I have fun in a time of boredom, I learn the names of the yoga poses, if my fitness allows I get some activity in my day by doing the yoga pose challenge and I can also find ways to contact an in-person yoga studio
+- As a site visitor, I am first assessing if this is an intuitive and eye-catching game that I would like to play
+- As a site visitor, I will initaially see a grid style game with 16 cards. I will initailly be able to see the back-side of the cards
+- As a site visitor, I will be able to click two cards at a time. They will flip over and stay flipped over if I have matched them
+- As a site visitor, I will see that the timer starts when I flip the first card
+- As a site visitor, I will see that a move is logged when the second card is flipped
+- As a site visitor, I will see that the timer stops once I finish matching all of the 16 cards on the grid
+- As a site visitor, I will be able to click a button that says "challenge" to get a random yoga pose to try at home for fun. This will pop up via a modal.
+- As a site visitor, I will be able to close this modal whenever I want
+- As a site visitor, I will be able to click a "reset" button at any time during the game to flip all the cards over to start again
+- As a site visitor, I will be able to see links in the footer for social media sites to a specific yoga studio. This will encourage me to go there for in-person lessons
+- As a site visitor, the value I get from this site is; I have fun in a time of boredom, I learn the names of the yoga poses, if my fitness allows I get some activity in my day by doing the yoga pose challenge and I can also find ways to contact an in-person yoga studio
 
 ## Features
 
@@ -183,23 +183,25 @@ The main color I am taking from the secondary color palette is: Pink
 
 ### Fixed bugs
 
+- Height was specified in header style and the content then spilled over to the next element. This was fixed by removing the specific height and then the header height just changed automatically to fit the content which was much better.
+
 ### Unfixed bugs
 
 ### Supported screens and browsers
 
 #### Screens
 
- - iPhone SE, 375px wide. Also looks good down to 300px according to devtools
- - iPad Mini, 768px wide
- - Nest Hub Max, 1280px wide
+- iPhone SE, 375px wide. Also looks good down to 300px according to devtools
+- iPad Mini, 768px wide
+- Nest Hub Max, 1280px wide
 
 #### Browsers
 
- - Chrome
- - Edge
- - Firefox
- - Safari
- - Opera
+- Chrome
+- Edge
+- Firefox
+- Safari
+- Opera
 
 ## Deployment
 
