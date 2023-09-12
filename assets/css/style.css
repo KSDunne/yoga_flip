@@ -47,8 +47,8 @@ main {
 
 /* memory game */
 .grid-section-area {
-  height: 270px;
-  width: 270px;
+  height: 240px;
+  width: 240px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
