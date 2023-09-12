@@ -15,20 +15,17 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  color: #3d3d3d;
+  color: #ffef0a;
   font-family: "Oxygen", sans-serif;
-}
-
-/* header */
-header {
-  background-color: lightpink;
+  background: url(../images/background_tree_yf_2.webp) no-repeat center
+    center/cover;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #252525;
+  color: #ffef0a;
   text-align: center;
   font-size: 170%;
   padding: 14% 10% 4% 10%;
@@ -36,15 +33,14 @@ h1 {
 
 /* main content */
 main {
-  background-color: lightblue;
   /* push footer down */
   flex: 1 0 auto;
 }
 
 /* memory game */
 .grid-section-area {
-  height: 650px;
-  width: 650px;
+  height: 270px;
+  width: 270px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -83,7 +79,7 @@ main {
 
 /* footer */
 footer {
-  background-color: lightgoldenrodyellow;
+  background-color: #d47cfa;
 }
 
 .container-footer-divs {
