@@ -37,6 +37,14 @@ main {
   flex: 1 0 auto;
 }
 
+.moves-area {
+  text-align: center;
+}
+
+.time-area {
+  text-align: center;
+}
+
 /* memory game */
 .grid-section-area {
   height: 270px;
