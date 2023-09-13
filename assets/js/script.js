@@ -1,4 +1,5 @@
 // script.js
+// start of main memory game logic
 const memory_cards = document.querySelectorAll(".cards");
 
 let hasFlippedCard = false;
@@ -50,11 +51,13 @@ function unflipCards() {
   }, 1300);
 }
 
+// resetBoard function fixes the double-click-card-bug
 function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
   [firstCard, secondCard] = [null, null];
 }
 
+// shuffle function
 (function shuffle() {
   memory_cards.forEach((card) => {
     let ramdomPos = Math.floor(Math.random() * 12);
@@ -64,3 +67,5 @@ function resetBoard() {
 
 // event listener which calls the 'flip card function' when a card is clicked
 memory_cards.forEach((card) => card.addEventListener("click", flipCard));
+
+// end of main memory game logic
