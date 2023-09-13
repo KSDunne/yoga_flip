@@ -79,6 +79,10 @@ main {
   transition: transform 0.2s;
 }
 
+.cards.flip {
+  transform: rotateY(180deg);
+}
+
 .front,
 .back {
   display: flex;
@@ -90,9 +94,10 @@ main {
   position: absolute;
   border-radius: 5px;
   background: #d47cfa;
+  backface-visibility: hidden;
 }
 
-.cards.flip {
+.front {
   transform: rotateY(180deg);
 }
 
