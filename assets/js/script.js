@@ -6,5 +6,5 @@ function flipCard() {
   this.classList.toggle("flip");
 }
 
-// event listener which calls the flip card function
+// event listener which calls the 'flip card function' when a card is clicked
 memory_cards.forEach((card) => card.addEventListener("click", flipCard));
