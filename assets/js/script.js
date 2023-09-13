@@ -1,5 +1,6 @@
 // script.js
 // start of main memory game logic
+// credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
 const memory_cards = document.querySelectorAll(".cards");
 
 let hasFlippedCard = false;
