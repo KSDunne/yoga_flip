@@ -6,7 +6,6 @@ let firstCard, secondCard;
 
 // flip card function
 function flipCard() {
-  this.classList.toggle("flip");
   this.classList.add("flip");
 
   if (!hasFlippedCard) {
@@ -18,6 +17,7 @@ function flipCard() {
   secondCard = this;
   hasFlippedCard = false;
 
+  // do the cards match?
   checkForMatch();
 }
 
@@ -35,7 +35,7 @@ function unflipCards() {
   setTimeout(() => {
     firstCard.classList.remove("flip");
     secondCard.classList.remove("flip");
-  }, 1500);
+  }, 1300);
 }
 
 // event listener which calls the 'flip card function' when a card is clicked
