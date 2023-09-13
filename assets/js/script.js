@@ -55,5 +55,12 @@ function resetBoard() {
   [firstCard, secondCard] = [null, null];
 }
 
+(function shuffle() {
+  memory_cards.forEach((card) => {
+    let ramdomPos = Math.floor(Math.random() * 12);
+    card.style.order = ramdomPos;
+  });
+})();
+
 // event listener which calls the 'flip card function' when a card is clicked
 memory_cards.forEach((card) => card.addEventListener("click", flipCard));
