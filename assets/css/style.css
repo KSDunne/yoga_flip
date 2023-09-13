@@ -53,7 +53,6 @@ main {
 }
 
 .grid-section-area {
-  border: 2px solid lime;
   height: 300px;
   width: 300px;
   margin: auto;
@@ -65,10 +64,9 @@ main {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid aqua;
-  width: calc(25% - 10px);
-  height: calc(25% - 10px);
-  margin: 5px;
+  width: calc(25% - 8px);
+  height: calc(25% - 8px);
+  margin: 4px;
   position: relative;
   transform-style: preserve-3d;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -77,7 +75,7 @@ main {
 }
 
 .cards:active {
-  transform: scale(0.97);
+  transform: scale(0.96);
   transition: transform 0.2s;
 }
 
