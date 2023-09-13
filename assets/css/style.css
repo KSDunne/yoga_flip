@@ -160,6 +160,7 @@ main {
   font-weight: bold;
   background-color: #d47cfa;
   color: #2a2a2a;
+  box-shadow: 0.1rem 0.1rem #2a2a2a;
 }
 
 .reset-area {
@@ -179,6 +180,7 @@ main {
   font-weight: bold;
   background-color: #d47cfa;
   color: #2a2a2a;
+  box-shadow: 0.1rem 0.1rem #2a2a2a;
 }
 
 /* footer */
