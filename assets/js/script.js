@@ -9,18 +9,21 @@ function flipCard() {
   this.classList.add("flip");
 
   if (!hasFlippedCard) {
+    // first click
     hasFlippedCard = true;
     firstCard = this;
     return;
   }
 
-  secondCard = this;
+  // second click
   hasFlippedCard = false;
+  secondCard = this;
 
-  // do the cards match?
   checkForMatch();
 }
 
+// do the cards match?
+// ternary operator
 function checkForMatch() {
   let isMatch = firstCard.dataset.image === secondCard.dataset.image;
   isMatch ? disableCards() : unflipCards();
