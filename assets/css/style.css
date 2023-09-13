@@ -47,8 +47,9 @@ main {
 
 /* memory game */
 .grid-section-area {
-  height: 240px;
-  width: 240px;
+  border: 2px solid lime;
+  height: 640px;
+  width: 640px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -56,8 +57,9 @@ main {
 }
 
 .cards {
+  border: 2px solid aqua;
   width: calc(25% - 10px);
-  height: calc(33.333% - 10px);
+  height: calc(25% - 10px);
   margin: 5px;
   position: relative;
   transform-style: preserve-3d;
@@ -73,6 +75,7 @@ main {
 
 .front,
 .back {
+  border: 2px solid deeppink;
   width: 100%;
   height: 100%;
   padding: 20px;
