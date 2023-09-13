@@ -1,4 +1,8 @@
 // script.js
+
+const moveContainer = document.querySelector(".moves");
+let moves = 0;
+
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
 const memory_cards = document.querySelectorAll(".cards");
@@ -50,6 +54,19 @@ function unflipCards() {
 
     resetBoard();
   }, 1300);
+
+  // call add move
+  addMove();
+}
+
+// credit for move counter code: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master
+//move counter
+moves = 0;
+moveContainer.innerHtml = 0;
+
+function addMove() {
+  moves++;
+  moveContainer.innerHTML = moves;
 }
 
 // resetBoard function fixes the double-click-card-bug
