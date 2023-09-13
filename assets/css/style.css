@@ -87,7 +87,6 @@ main {
 .back {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid deeppink;
   width: 100%;
   height: 100%;
   padding: 2px;
