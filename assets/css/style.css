@@ -273,8 +273,8 @@ footer {
 .time-out-container {
   display: flex;
   justify-content: center;
-  height: 160px;
-  padding-top: 60px;
+  height: 250px;
+  padding-top: 120px;
 }
 
 @keyframes fadeIn {
