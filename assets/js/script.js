@@ -97,6 +97,7 @@ let timerInterval;
 const minutesElement = document.querySelector("#minutes"),
   secondsElement = document.querySelector("#seconds");
 
+// template literals to format the time for whether it is singlular or multiples
 const formatTime = (time, string) => {
   return time == 1
     ? `<span>${time}</span> ${string}`
@@ -108,6 +109,7 @@ const startCountdown = () => {
   const countdown = new Date(countdownDate).getTime();
   const difference = (countdown - now) / 1000;
 
+  // the following if statement makes sure the timer stops before going into negative numbers
   if (difference < 1) {
     endCountdown();
   }
@@ -119,10 +121,12 @@ const startCountdown = () => {
   secondsElement.innerHTML = formatTime(seconds, "sec");
 };
 
+//endCountdown function is called right before the timer goes into negative numbers
 const endCountdown = () => {
   clearInterval(timerInterval);
 };
 
+//every second the startCountdown function is run, the '1000' in the following code block is allowing this
 window.addEventListener("load", () => {
   startCountdown();
   timerInterval = setInterval(startCountdown, 1000);
