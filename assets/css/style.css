@@ -41,13 +41,13 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 300px;
+  width: 280px;
   margin: 0 auto;
 }
 
 .moves-area {
   text-align: center;
-  width: 120px;
+  width: 45%;
   border-radius: 8px;
   padding: 5px;
   margin: 8px 4px 0px 4px;
@@ -59,15 +59,23 @@ main {
 
 .time-area {
   text-align: center;
-  width: 120px;
+  width: 45%;
   border-radius: 8px;
   padding: 5px;
   margin: 8px 4px 0px 4px;
   font-size: 85%;
   font-weight: bold;
   background-color: #ffef0a;
-  /*background-color: #fffae6;*/
   color: #2a2a2a;
+}
+
+/* credit for timer code that was adjusted for my own use: tutorial at the following address, https://github.com/adipurdila/countdown-timer/tree/main */
+#timer-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
 }
 
 /* memory game */

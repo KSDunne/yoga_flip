@@ -49,7 +49,15 @@
     <main>
       <div class="move-time-container">
         <div class="moves-area">Moves: <span class="moves">0</span></div>
-        <div class="time-area">Time: 00:00:00</div>
+        <!-- timer -->
+        <!-- credit for timer code: tutorial at the following address, https://github.com/adipurdila/countdown-timer/tree/main-->
+        <div class="time-area">
+          <ul id="timer-container">
+            <li id="minutes" role="timer"><span>0</span> m</li>
+            <li>:</li>
+            <li id="seconds" role="timer"><span>0</span> s</li>
+          </ul>
+        </div>
       </div>
 
       <div class="overall-game-area">
