@@ -3,6 +3,9 @@
 const moveContainer = document.querySelector(".moves");
 let moves = 0;
 
+// Adding seconds to current date for countdown */
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 600);
+
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
 const memory_cards = document.querySelectorAll(".cards");
@@ -87,3 +90,41 @@ function resetBoard() {
 memory_cards.forEach((card) => card.addEventListener("click", flipCard));
 
 // end of main memory game logic
+
+// start of countdown timer logic
+let timerInterval;
+const minutesElement = document.querySelector("#minutes"),
+  secondsElement = document.querySelector("#seconds");
+
+const formatTime = (time, string) => {
+  return time == 1
+    ? `<span>${time}</span> ${string}`
+    : `<span>${time}</span> ${string}s`;
+};
+
+const startCountdown = () => {
+  const now = new Date().getTime();
+  const countdown = new Date(countdownDate).getTime();
+  const difference = (countdown - now) / 1000;
+
+  if (difference < 1) {
+    endCountdown();
+  }
+
+  let minutes = Math.floor((difference % (60 * 60)) / 60);
+  let seconds = Math.floor(difference % 60);
+
+  minutesElement.innerHTML = formatTime(minutes, "min");
+  secondsElement.innerHTML = formatTime(seconds, "sec");
+};
+
+const endCountdown = () => {
+  clearInterval(timerInterval);
+};
+
+window.addEventListener("load", () => {
+  startCountdown();
+  timerInterval = setInterval(startCountdown, 1000);
+});
+
+// end of countdown timer logic

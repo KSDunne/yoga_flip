@@ -42,12 +42,13 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   width: 280px;
+  height: 55px;
   margin: 0 auto;
 }
 
 .moves-area {
   text-align: center;
-  width: 45%;
+  width: 36%;
   border-radius: 8px;
   padding: 5px;
   margin: 8px 4px 0px 4px;
@@ -59,7 +60,7 @@ main {
 
 .time-area {
   text-align: center;
-  width: 45%;
+  width: 36%;
   border-radius: 8px;
   padding: 5px;
   margin: 8px 4px 0px 4px;
