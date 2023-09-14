@@ -190,6 +190,7 @@ main {
   background-color: #fffae6;
   color: #2a2a2a;
   box-shadow: 0.1rem 0.1rem #2a2a2a;
+  cursor: pointer;
 }
 
 /* footer */

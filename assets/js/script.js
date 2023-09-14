@@ -150,3 +150,5 @@ window.addEventListener("load", () => {
 });
 
 // end of countdown timer logic
+
+// start of logic for reset button
