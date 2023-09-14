@@ -92,6 +92,7 @@ memory_cards.forEach((card) => card.addEventListener("click", flipCard));
 // end of main memory game logic
 
 // start of countdown timer logic
+// credit of code adapted for my own use: https://github.com/adipurdila/countdown-timer/tree/main
 let timerInterval;
 const minutesElement = document.querySelector("#minutes"),
   secondsElement = document.querySelector("#seconds");
