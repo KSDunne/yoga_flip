@@ -240,6 +240,60 @@ footer {
   font-size: 170%;
 }
 
+#timer-running,
+#timer-end {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #ffef0a;
+  font-family: "Oxygen", sans-serif;
+  background: url(../images/background_tree_yf.webp) no-repeat center
+    center/cover;
+}
+
+#timer-running.hidden {
+  animation: fadeOut 1.5s forwards;
+}
+
+#timer-end {
+  display: none;
+  opacity: 0;
+}
+
+#timer-end.visible {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  animation: fadeIn 1.5s forwards 1.5s;
+}
+
+.time-out-container {
+  display: flex;
+  justify-content: center;
+  height: 160px;
+  padding-top: 60px;
+}
+
+.retry-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px 80px 10px;
+}
+
+.retry-btn {
+  margin: 2px;
+  text-align: center;
+  width: 240px;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 8px 4px 0px 4px;
+  font-size: 85%;
+  font-weight: bold;
+  background-color: #fffae6;
+  color: #2a2a2a;
+  box-shadow: 0.1rem 0.1rem #2a2a2a;
+}
+
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* header */

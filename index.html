@@ -40,220 +40,264 @@
   </head>
 
   <body>
-    <!--header -->
-    <header>
-      <h1 class="game-title"><i class="fa-regular fa-star"></i> Yoga Flip</h1>
-    </header>
+    <div id="timer-running">
+      <!--header -->
+      <header>
+        <h1 class="game-title"><i class="fa-regular fa-star"></i> Yoga Flip</h1>
+      </header>
 
-    <!-- main content -->
-    <main>
-      <div class="move-time-container">
-        <div class="moves-area">Moves: <span class="moves">0</span></div>
-        <!-- timer -->
-        <!-- credit for timer code: tutorial at the following address, https://github.com/adipurdila/countdown-timer/tree/main-->
-        <div class="time-area">
-          <ul id="timer-container">
-            <li id="minutes" role="timer"><span>0</span> m</li>
-            <li>:</li>
-            <li id="seconds" role="timer"><span>0</span> s</li>
-          </ul>
+      <!-- main content -->
+      <main>
+        <div class="move-time-container">
+          <div class="moves-area">Moves: <span class="moves">0</span></div>
+          <!-- timer -->
+          <!-- credit for timer code: tutorial at the following address, https://github.com/adipurdila/countdown-timer/tree/main-->
+          <div class="time-area">
+            <ul id="timer-container">
+              <li id="minutes" role="timer"><span>0</span> m</li>
+              <li>:</li>
+              <li id="seconds" role="timer"><span>0</span> s</li>
+            </ul>
+          </div>
         </div>
-      </div>
 
-      <div class="overall-game-area">
-        <!-- credit 1 for grid section area: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae -->
-        <!-- credit 2 for grid section area: https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game -->
-        <!-- start of grid section playing area -->
-        <section class="grid-section-area" aria-label="memory grid game">
-          <div class="cards" data-image="downwarddog">
-            <img src="assets/images/dog.jpg" class="front" alt="card front" />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="downwarddog">
-            <img src="assets/images/dog.jpg" class="front" alt="card front" />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="cobra">
-            <img src="assets/images/cobra.jpg" class="front" alt="card front" />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="cobra">
-            <img src="assets/images/cobra.jpg" class="front" alt="card front" />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="childspose">
-            <img
-              src="assets/images/childspose.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="childspose">
-            <img
-              src="assets/images/childspose.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="cow">
-            <img src="assets/images/cow.jpg" class="front" alt="card front" />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="cow">
-            <img src="assets/images/cow.jpg" class="front" alt="card front" />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="eaglearms">
-            <img
-              src="assets/images/eaglearms.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="eaglearms">
-            <img
-              src="assets/images/eaglearms.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="warrior2">
-            <img
-              src="assets/images/warrior2.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="warrior2">
-            <img
-              src="assets/images/warrior2.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="kneehug">
-            <img
-              src="assets/images/kneehug.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="kneehug">
-            <img
-              src="assets/images/kneehug.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="dancer">
-            <img
-              src="assets/images/dancer.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-          <div class="cards" data-image="dancer">
-            <img
-              src="assets/images/dancer.jpg"
-              class="front"
-              alt="card front"
-            />
-            <img src="assets/images/back.jpg" class="back" alt="card back" />
-          </div>
-        </section>
-        <!-- end of grid section playing area -->
-      </div>
-
-      <div class="pose-name-container">
-        <div class="pose-name-area">Pose name: Child's pose</div>
-      </div>
-
-      <div class="challenge-area">
-        <button class="challenge-btn">Challenge</button>
-      </div>
-
-      <div class="reset-area">
-        <button class="reset-btn" onclick="reset()">Reset</button>
-      </div>
-    </main>
-
-    <!-- credit for footer: whisper rs portfolio project 1 -->
-    <!-- footer -->
-    <footer>
-      <div class="container-footer-divs">
-        <div class="footer-divs">
-          <a href="index.html" aria-label="Link to the home page in the footer">
-            <img
-              src="assets/images/main_logo_black_sansbg.webp"
-              class="footer-logo"
-              alt="Yoga Flip Logo"
-              aria-label="This logo is clickable, it is a link to the home page in the footer"
-          /></a>
+        <div class="overall-game-area">
+          <!-- credit 1 for grid section area: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae -->
+          <!-- credit 2 for grid section area: https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game -->
+          <!-- start of grid section playing area -->
+          <section class="grid-section-area" aria-label="memory grid game">
+            <div class="cards" data-image="downwarddog">
+              <img src="assets/images/dog.jpg" class="front" alt="card front" />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="downwarddog">
+              <img src="assets/images/dog.jpg" class="front" alt="card front" />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="cobra">
+              <img
+                src="assets/images/cobra.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="cobra">
+              <img
+                src="assets/images/cobra.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="childspose">
+              <img
+                src="assets/images/childspose.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="childspose">
+              <img
+                src="assets/images/childspose.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="cow">
+              <img src="assets/images/cow.jpg" class="front" alt="card front" />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="cow">
+              <img src="assets/images/cow.jpg" class="front" alt="card front" />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="eaglearms">
+              <img
+                src="assets/images/eaglearms.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="eaglearms">
+              <img
+                src="assets/images/eaglearms.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="warrior2">
+              <img
+                src="assets/images/warrior2.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="warrior2">
+              <img
+                src="assets/images/warrior2.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="kneehug">
+              <img
+                src="assets/images/kneehug.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="kneehug">
+              <img
+                src="assets/images/kneehug.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="dancer">
+              <img
+                src="assets/images/dancer.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+            <div class="cards" data-image="dancer">
+              <img
+                src="assets/images/dancer.jpg"
+                class="front"
+                alt="card front"
+              />
+              <img src="assets/images/back.jpg" class="back" alt="card back" />
+            </div>
+          </section>
+          <!-- end of grid section playing area -->
         </div>
-        <div class="footer-divs">
-          <!-- credit for socials code: love-running-v3 newest version August 2023 -->
-          <ul class="socials">
-            <li>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)"
-                ><i class="fa-brands fa-square-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"
-                ><i class="fa-brands fa-square-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our YouTube page (opens in a new tab)"
-                ><i class="fa-brands fa-youtube"></i
-              ></a>
-            </li>
-          </ul>
+
+        <div class="pose-name-container">
+          <div class="pose-name-area">Pose name: Child's pose</div>
         </div>
-        <div class="footer-divs">
-          <p>© Katie Dunne 2023</p>
+
+        <div class="challenge-area">
+          <button class="challenge-btn">Challenge</button>
         </div>
-        <div class="footer-divs git-hub-div">
-          <a
-            href="https://github.com/ksdunne"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit my GitHub page (opens in a new tab)"
-            ><i class="fa-brands fa-github socials"></i
-          ></a>
+
+        <div class="reset-area">
+          <button class="reset-btn" onclick="reset()">Reset</button>
         </div>
-      </div>
-    </footer>
+      </main>
+
+      <!-- credit for footer: whisper rs portfolio project 1 -->
+      <!-- footer -->
+      <footer>
+        <div class="container-footer-divs">
+          <div class="footer-divs">
+            <a
+              href="index.html"
+              aria-label="Link to the home page in the footer"
+            >
+              <img
+                src="assets/images/main_logo_black_sansbg.webp"
+                class="footer-logo"
+                alt="Yoga Flip Logo"
+                aria-label="This logo is clickable, it is a link to the home page in the footer"
+            /></a>
+          </div>
+          <div class="footer-divs">
+            <!-- credit for socials code: love-running-v3 newest version August 2023 -->
+            <ul class="socials">
+              <li>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Visit our Facebook page (opens in a new tab)"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Visit our Twitter page (opens in a new tab)"
+                  ><i class="fa-brands fa-square-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Visit our Instagram page (opens in a new tab)"
+                  ><i class="fa-brands fa-square-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://youtube.com"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Visit our YouTube page (opens in a new tab)"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-divs">
+            <p>© Katie Dunne 2023</p>
+          </div>
+          <div class="footer-divs git-hub-div">
+            <a
+              href="https://github.com/ksdunne"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit my GitHub page (opens in a new tab)"
+              ><i class="fa-brands fa-github socials"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- start of time out page -->
+    <div id="timer-end">
+      <!-- header -->
+      <header>
+        <h1 class="game-title"><i class="fa-regular fa-star"></i> Yoga Flip</h1>
+      </header>
+
+      <!-- main content -->
+      <main>
+        <div class="move-time-container">
+          <div class="moves-area">Moves: <span class="moves2">0</span></div>
+          <!-- timer -->
+          <!-- credit for timer code: tutorial at the following address, https://github.com/adipurdila/countdown-timer/tree/main-->
+          <div class="time-area">
+            <ul id="timer-container">
+              <li id="minutes" role="timer"><span>0</span> m</li>
+              <li>:</li>
+              <li id="seconds" role="timer"><span>0</span> s</li>
+            </ul>
+          </div>
+        </div>
+        <div class="time-out-container">
+          <h2>Time Out!</h2>
+        </div>
+        <div class="retry-container">
+          <button class="retry-btn">Retry Game</button>
+        </div>
+      </main>
+    </div>
+    <!-- end of time out page -->
 
     <!-- credit for font awesome inspiration: love-maths-2.0-sourcecode -->
     <!-- font awesome script-->

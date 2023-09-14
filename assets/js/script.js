@@ -3,8 +3,11 @@
 const moveContainer = document.querySelector(".moves");
 let moves = 0;
 
+const moveContainer2 = document.querySelector(".moves2");
+let moves2 = 0;
+
 // Adding seconds to current date for countdown */
-let countdownDate = new Date().setSeconds(new Date().getSeconds() + 600);
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 15);
 
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
@@ -58,8 +61,9 @@ function unflipCards() {
     resetBoard();
   }, 1300);
 
-  // call add move
+  // call 'add move' on both the game screen, and time out screen so that it shows how many moves you made when you time out
   addMove();
+  addMove2();
 }
 
 // credit for move counter code: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master
@@ -70,6 +74,15 @@ moveContainer.innerHtml = 0;
 function addMove() {
   moves++;
   moveContainer.innerHTML = moves;
+}
+
+//move counter 2
+moves2 = 0;
+moveContainer2.innerHtml = 0;
+
+function addMove2() {
+  moves2++;
+  moveContainer2.innerHTML = moves2;
 }
 
 // resetBoard function fixes the double-click-card-bug
@@ -95,7 +108,9 @@ memory_cards.forEach((card) => card.addEventListener("click", flipCard));
 // credit of code adapted for my own use: https://github.com/adipurdila/countdown-timer/tree/main
 let timerInterval;
 const minutesElement = document.querySelector("#minutes"),
-  secondsElement = document.querySelector("#seconds");
+  secondsElement = document.querySelector("#seconds"),
+  timerRunningContent = document.querySelector("#timer-running"),
+  timerEndContent = document.querySelector("#timer-end");
 
 // template literals to format the time for whether it is singlular or multiples
 const formatTime = (time, string) => {
@@ -124,6 +139,8 @@ const startCountdown = () => {
 //endCountdown function is called right before the timer goes into negative numbers
 const endCountdown = () => {
   clearInterval(timerInterval);
+  timerRunningContent.classList.add("hidden");
+  timerEndContent.classList.add("visible");
 };
 
 //every second the startCountdown function is run, the '1000' in the following code block is allowing this
