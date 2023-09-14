@@ -152,13 +152,13 @@ main {
   color: #2a2a2a;
 }
 
-.challenge-area {
+.rules-area {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.challenge-btn {
+.rules-btn {
   margin: 4px;
   text-align: center;
   width: 240px;
@@ -170,6 +170,7 @@ main {
   background-color: #fffae6;
   color: #2a2a2a;
   box-shadow: 0.1rem 0.1rem #2a2a2a;
+  cursor: pointer;
 }
 
 .reset-area {
