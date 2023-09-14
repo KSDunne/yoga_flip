@@ -146,11 +146,12 @@ main {
   border-radius: 8px;
   padding: 5px;
   margin: 8px 4px 0px 4px;
-  font-size: 75%;
+  font-size: 70%;
   font-weight: bold;
   background-color: #ffef0a;
   color: #2a2a2a;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 .rules-area {
