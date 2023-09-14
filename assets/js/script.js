@@ -7,7 +7,7 @@ const moveContainer2 = document.querySelector(".moves2");
 let moves2 = 0;
 
 // Adding seconds to current date for countdown */
-let countdownDate = new Date().setSeconds(new Date().getSeconds() + 10);
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 60);
 
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
@@ -35,6 +35,7 @@ function flipCard() {
   secondCard = this;
 
   checkForMatch();
+  checkForMatchDisplay();
 }
 
 // do the cards match?
@@ -47,7 +48,7 @@ function checkForMatch() {
 function disableCards() {
   firstCard.removeEventListener("click", flipCard);
   secondCard.removeEventListener("click", flipCard);
-
+  checkForMatchDisplay();
   resetBoard();
 }
 
@@ -150,5 +151,22 @@ window.addEventListener("load", () => {
 });
 
 // end of countdown timer logic
+
+// logic for showing the pose name
+
+function checkForMatchDisplay() {
+  let isMatchDisplay = firstCard.dataset.image === secondCard.dataset.image;
+  isMatchDisplay ? editPoseName() : clearPoseName();
+}
+
+function editPoseName() {
+  let poseNameDisplay = document.getElementById("pose-name-display");
+  poseNameDisplay.innerHTML = `pose: ${firstCard.dataset.image}`;
+}
+
+function clearPoseName() {
+  let poseNameDisplay = document.getElementById("pose-name-display");
+  poseNameDisplay.innerHTML = `pose: Not Matched`;
+}
 
 // start of logic for reset button
