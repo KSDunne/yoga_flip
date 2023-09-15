@@ -7,7 +7,7 @@ const moveContainer2 = document.querySelector(".moves2");
 let moves2 = 0;
 
 // Adding seconds to current date for countdown */
-let countdownDate = new Date().setSeconds(new Date().getSeconds() + 600);
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 60);
 
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
