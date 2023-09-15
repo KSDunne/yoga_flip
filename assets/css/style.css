@@ -83,7 +83,7 @@ main {
 .overall-game-area {
   display: flex;
   flex-wrap: wrap;
-  padding: 1% 2% 0% 2%;
+  padding: 2% 2% 1% 2%;
 }
 
 .grid-section-area {
