@@ -211,7 +211,8 @@ main {
   justify-content: center;
 }
 
-.rules-card-body h2 {
+.modal-heading {
+  padding: 3% 3% 4% 3%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
