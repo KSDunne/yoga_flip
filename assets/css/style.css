@@ -212,18 +212,19 @@ main {
 }
 
 .modal-heading {
-  padding: 3% 3% 4% 3%;
+  padding: 1% 3% 2% 3%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   color: #d47cfa;
 }
 
-.rules-card-body p {
+.have-fun-div {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   color: #d47cfa;
+  margin-bottom: 10px;
 }
 
 .rule-list {
@@ -236,7 +237,7 @@ main {
 
 .rule-list li {
   font-family: Poppins, sans-serif;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   color: black;
   text-align: center;
   list-style-type: none;
