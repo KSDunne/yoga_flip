@@ -244,7 +244,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 70%;
+  width: 90%;
 }
 
 .close-rules-button {
@@ -261,6 +261,7 @@ main {
   box-shadow: 0.1rem 0.1rem #2a2a2a;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
