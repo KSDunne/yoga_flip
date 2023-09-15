@@ -179,7 +179,7 @@ main {
 /* modal credit 1: https://www.w3schools.com/howto/howto_css_modals.asp */
 /* modal credit 2: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master */
 .rules-modal-class {
-  /*display: none;*/
+  display: none;
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   z-index: 99;

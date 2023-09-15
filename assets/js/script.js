@@ -169,4 +169,30 @@ function clearPoseName() {
   poseNameDisplay.innerHTML = `pose: Not Matched`;
 }
 
-// start of logic for reset button
+// start of logic for rules modal
+// credit for rules modal logic: https://www.w3schools.com/howto/howto_css_modals.asp
+// Get the modal
+var modal = document.getElementById("rules-modal-id");
+
+// Get the button that opens the modal
+var button = document.getElementById("rules-btn-id");
+
+// Get the element that closes the modal
+var closebtn = document.getElementsByClassName("close-rules-button")[0];
+
+// When the user clicks on the button, open the modal
+button.onclick = function () {
+  modal.style.display = "flex";
+};
+
+// When the user clicks on closebtn, close the modal
+closebtn.onclick = function () {
+  modal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
