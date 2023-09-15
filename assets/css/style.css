@@ -197,7 +197,7 @@ main {
   border: 0.8em solid #d47cfa;
   background-color: #fffae6;
   border-radius: 18px;
-  padding: 50px;
+  padding: 5%;
   margin: 30px 30px 100px 30px;
   width: 78%;
   display: flex;
@@ -244,7 +244,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 94%;
+  width: 96%;
 }
 
 .close-rules-container {
