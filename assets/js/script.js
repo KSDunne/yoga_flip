@@ -171,6 +171,7 @@ function clearPoseName() {
 
 // start of logic for rules modal
 // credit for rules modal logic: https://www.w3schools.com/howto/howto_css_modals.asp
+
 // Get the modal
 var modal = document.getElementById("rules-modal-id");
 
