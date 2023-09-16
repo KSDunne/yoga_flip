@@ -248,9 +248,20 @@ function winNumberReached() {
 }
 // end of logic for game win
 
-// start of logic for putting time on game win page
-
-("total-time");
-////////
-
 // start of logic for when the reset button is clicked
+
+function reset() {
+  setTimeout(() => {
+    hasFlippedCard = false;
+    [firstCard, secondCard] = [null, null];
+    moves = 0;
+    moves2 = 0;
+    moves3 = 0;
+    moveContainer.innerHTML = 0;
+    moveContainer2.innerHTML = 0;
+    moveContainer3.innerHTML = 0;
+    memory_cards.forEach((cardReset) => cardReset.classList.remove("flip"));
+    shuffle();
+    memory_cards.forEach((card) => card.addEventListener("click", flipCard));
+  }, 500);
+}
