@@ -7,7 +7,7 @@ const moveContainer2 = document.querySelector(".moves2");
 let moves2 = 0;
 
 // adding seconds to current date for countdown */
-let countdownDate = new Date().setSeconds(new Date().getSeconds() + 10);
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 60);
 
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
@@ -36,6 +36,8 @@ function flipCard() {
 
   checkForMatch();
   checkForMatchDisplay();
+  winCountFunction();
+  winNumberReached();
 }
 
 // do the cards match?
@@ -49,6 +51,8 @@ function disableCards() {
   firstCard.removeEventListener("click", flipCard);
   secondCard.removeEventListener("click", flipCard);
   checkForMatchDisplay();
+  winCountFunction();
+  winNumberReached();
   resetBoard();
 }
 
@@ -201,19 +205,29 @@ window.onclick = function (event) {
 };
 
 // start of logic for game win
-function winMoves() {
-  if (moveContainer.innerHtml === 8) gameWin();
+let winNumber = 0;
+function winCountFunction() {
+  let winCountFunction = firstCard.dataset.image === secondCard.dataset.image;
+  winCountFunction ? increaseNumber() : leaveNumber();
 }
 
-function gameWin() {
-  winEndCountdown();
+function increaseNumber() {
+  winNumber += 1;
 }
 
-const winEndCountdown = () => {
-  clearInterval(timerInterval);
-  timerRunningContent.classList.add("hidden");
-  timerEndContent.classList.add("hidden");
-  winContent.classList.add("visible");
-};
+function leaveNumber() {
+  winNumber = winNumber;
+}
+
+function winNumberReached() {
+  if (winNumber === 8) {
+    clearInterval(timerInterval);
+    timerRunningContent.classList.add("hidden");
+    timerEndContent.classList.add("hidden");
+    winContent.classList.add("visible");
+  }
+}
+
+////////
 
 // start of logic for when the reset button is clicked
