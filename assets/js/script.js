@@ -260,6 +260,8 @@ function reset() {
     moveContainer.innerHTML = 0;
     moveContainer2.innerHTML = 0;
     moveContainer3.innerHTML = 0;
+    minutesElement.innerHTML = 0;
+    secondsElement.innerHTML = 0;
     memory_cards.forEach((cardReset) => cardReset.classList.remove("flip"));
     shuffle();
     memory_cards.forEach((card) => card.addEventListener("click", flipCard));
