@@ -10,7 +10,7 @@ Link to live website:
 
 ## Purpose of the project
 
-Yoga Flip is a version of the classic card memory game. It provides value to a user of any age through an educational aspect. The educational aspect is that the game gives the name of the yoga pose shown on the cards, after each successful match. Therefore, the user is learning the name of each yoga pose as they are playing the game. There is a bonus challenge feature to this game where the user can click the 'challenge' button at any time during the game and get a random pose shown to them and they are challenged to do the pose for 20 seconds if their fitness allows. There are also social links in the footer of the main game page to encourage the user to connect with the yoga studio business, which offers in-person classes. The color theme of yoga flip was specifically chosen to provide feel-good and energizing emotions. Bright anchor colors were chosen. These are; purple, green, pink and white. The whole theme of this project is based around energising Vinyasa yoga.
+Yoga Flip is a version of the classic card memory game. It provides value to a user of any age through an educational aspect. The educational aspect is that the game gives the name of the yoga pose shown on the cards, after each successful match. Therefore, the user is learning the name of each yoga pose as they are playing the game. The game is also challenging, because the player is playing against a countdown timer. When the timer reaches zero the grid playing area fades away and a 'Time Out!' slogan appears. There are also social links in the footer of the main game page to encourage the user to connect with the yoga studio business, which offers in-person classes. The color theme of yoga flip was specifically chosen to provide feel-good and energizing emotions. Bright anchor colors were chosen. These are; purple, yellow, pink and white. The whole theme of this project is based around energising Vinyasa yoga.
 
 ## Table of contents
 
@@ -104,7 +104,7 @@ Since the theme for this game is energising Vinyasa yoga I chose bright colors t
 
 #### Primary accessible color palette
 
-The main colors I am taking from the primary color palette are: White / Purple / Green
+The main colors I am taking from the primary color palette are: White / Purple / Yellow
 
 ![Primary accessible color palette](docs/primary_accessible_colors.webp)
 
