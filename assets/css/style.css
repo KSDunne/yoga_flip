@@ -365,7 +365,7 @@ footer {
   opacity: 0;
 }
 
-.win-page {
+#win-page {
   display: none;
   opacity: 0;
 }

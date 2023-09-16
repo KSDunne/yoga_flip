@@ -7,7 +7,7 @@ const moveContainer2 = document.querySelector(".moves2");
 let moves2 = 0;
 
 // adding seconds to current date for countdown */
-let countdownDate = new Date().setSeconds(new Date().getSeconds() + 120);
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 10);
 
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
@@ -111,7 +111,8 @@ let timerInterval;
 const minutesElement = document.querySelector("#minutes"),
   secondsElement = document.querySelector("#seconds"),
   timerRunningContent = document.querySelector("#timer-running"),
-  timerEndContent = document.querySelector("#timer-end");
+  timerEndContent = document.querySelector("#timer-end"),
+  winContent = document.querySelector("#win-page");
 
 // template literals to format the time for whether it is singlular or multiples
 const formatTime = (time, string) => {
@@ -141,6 +142,7 @@ const startCountdown = () => {
 const endCountdown = () => {
   clearInterval(timerInterval);
   timerRunningContent.classList.add("hidden");
+  winContent.classList.add("hidden");
   timerEndContent.classList.add("visible");
 };
 
