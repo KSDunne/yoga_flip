@@ -10,7 +10,7 @@ const moveContainer3 = document.querySelector(".moves3");
 let moves3 = 0;
 
 // adding seconds to current date for countdown */
-let countdownDate = new Date().setSeconds(new Date().getSeconds() + 60);
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 600);
 
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
@@ -237,9 +237,20 @@ function winNumberReached() {
     timerRunningContent.classList.add("hidden");
     timerEndContent.classList.add("hidden");
     winContent.classList.add("visible");
+
+    // showing time on win page
+    finalTimeSec = secondsElement.innerHTML;
+    document.getElementById("total-seconds").innerHTML = finalTimeSec;
+
+    finalTimeMin = minutesElement.innerHTML;
+    document.getElementById("total-minutes").innerHTML = finalTimeMin;
   }
 }
+// end of logic for game win
 
+// start of logic for putting time on game win page
+
+("total-time");
 ////////
 
 // start of logic for when the reset button is clicked
