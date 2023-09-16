@@ -344,8 +344,7 @@ footer {
 }
 
 #timer-running,
-#timer-end,
-#win-page {
+#timer-end {
   min-height: 100vh;
   display: flex;
   flex-direction: column;

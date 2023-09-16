@@ -199,8 +199,8 @@ window.onclick = function (event) {
 };
 
 // start of logic for game win
-function winMoves {
-  if (moves === 8) gameWin()
+function winMoves() {
+  if (moveContainer.innerHtml === 8) gameWin();
 }
 
 function gameWin() {
