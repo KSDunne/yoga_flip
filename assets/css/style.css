@@ -344,7 +344,8 @@ footer {
 }
 
 #timer-running,
-#timer-end {
+#timer-end,
+#win-page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -365,6 +366,11 @@ footer {
   opacity: 0;
 }
 
+.win-page {
+  display: none;
+  opacity: 0;
+}
+
 #timer-end.visible {
   display: flex;
   height: 100vh;
@@ -372,7 +378,21 @@ footer {
   animation: fadeIn 0.8s forwards 0.8s;
 }
 
+#win-page.visible {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  animation: fadeIn 0.8s forwards 0.8s;
+}
+
 .time-out-container {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  padding-top: 120px;
+}
+
+.win-container {
   display: flex;
   justify-content: center;
   height: 250px;

@@ -6,8 +6,8 @@ let moves = 0;
 const moveContainer2 = document.querySelector(".moves2");
 let moves2 = 0;
 
-// Adding seconds to current date for countdown */
-let countdownDate = new Date().setSeconds(new Date().getSeconds() + 60);
+// adding seconds to current date for countdown */
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 120);
 
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
@@ -172,28 +172,46 @@ function clearPoseName() {
 // start of logic for rules modal
 // credit for rules modal logic: https://www.w3schools.com/howto/howto_css_modals.asp
 
-// Get the modal
+// get the modal
 var modal = document.getElementById("rules-modal-id");
 
-// Get the button that opens the modal
+// get the button that opens the modal
 var button = document.getElementById("rules-btn-id");
 
-// Get the element that closes the modal
+// get the element that closes the modal
 var closebtn = document.getElementsByClassName("close-rules-button")[0];
 
-// When the user clicks on the button, open the modal
+// when the user clicks on the button, open the modal
 button.onclick = function () {
   modal.style.display = "flex";
 };
 
-// When the user clicks on closebtn, close the modal
+// when the user clicks on closebtn, close the modal
 closebtn.onclick = function () {
   modal.style.display = "none";
 };
 
-// When the user clicks anywhere outside of the modal, close it
+// when the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 };
+
+// start of logic for game win
+function winMoves {
+  if (moves === 8) gameWin()
+}
+
+function gameWin() {
+  winEndCountdown();
+}
+
+const winEndCountdown = () => {
+  clearInterval(timerInterval);
+  timerRunningContent.classList.add("hidden");
+  timerEndContent.classList.add("hidden");
+  winContent.classList.add("visible");
+};
+
+// start of logic for when the reset button is clicked
