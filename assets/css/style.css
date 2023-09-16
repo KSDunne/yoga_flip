@@ -382,6 +382,14 @@ footer {
   height: 100vh;
   justify-content: center;
   animation: fadeIn 0.8s forwards 0.8s;
+  min-height: 100vh;
+  flex-direction: column;
+  color: #ffef0a;
+  font-family: "Oxygen", sans-serif;
+  background: url(../images/background_tree_yf.webp) no-repeat center
+    center/cover;
+  position: absolute;
+  width: 100%;
 }
 
 .time-out-container {

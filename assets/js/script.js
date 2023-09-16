@@ -6,6 +6,9 @@ let moves = 0;
 const moveContainer2 = document.querySelector(".moves2");
 let moves2 = 0;
 
+const moveContainer3 = document.querySelector(".moves3");
+let moves3 = 0;
+
 // adding seconds to current date for countdown */
 let countdownDate = new Date().setSeconds(new Date().getSeconds() + 60);
 
@@ -88,6 +91,15 @@ moveContainer2.innerHtml = 0;
 function addMove2() {
   moves2++;
   moveContainer2.innerHTML = moves2;
+}
+
+//move counter 2
+moves3 = 0;
+moveContainer3.innerHtml = 0;
+
+function addMove2() {
+  moves3++;
+  moveContainer3.innerHTML = moves3;
 }
 
 // resetBoard function fixes the double-click-card-bug
