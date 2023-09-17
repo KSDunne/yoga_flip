@@ -89,6 +89,7 @@ function unflipCards() {
   // call 'add move' on both the game screen, and time out screen so that it shows how many moves you made when you time out
   addMove();
   addMove2();
+  addMove3();
 }
 
 // credit for move counter code: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master
@@ -102,19 +103,15 @@ function addMove() {
 }
 
 //move counter 2
-moves2 = 0;
-moveContainer2.innerHtml = 0;
 
 function addMove2() {
   moves2++;
   moveContainer2.innerHTML = moves2;
 }
 
-//move counter 2
-moves3 = 0;
-moveContainer3.innerHtml = 0;
+//move counter 3
 
-function addMove2() {
+function addMove3() {
   moves3++;
   moveContainer3.innerHTML = moves3;
 }
