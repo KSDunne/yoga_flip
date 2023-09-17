@@ -249,6 +249,10 @@ function winNumberReached() {
 // end of logic for game win
 
 // start of logic for when the reset button is clicked
+function resetStartCountdown() {
+  startCountdown();
+  timerInterval = setInterval(startCountdown, 1000);
+}
 
 function reset() {
   setTimeout(() => {
@@ -261,6 +265,7 @@ function reset() {
     moveContainer2.innerHTML = 0;
     moveContainer3.innerHTML = 0;
     clearInterval(timerInterval);
+    resetStartCountdown();
     minutesElement.innerHTML = 0;
     secondsElement.innerHTML = 0;
     memory_cards.forEach((cardReset) => cardReset.classList.remove("flip"));
