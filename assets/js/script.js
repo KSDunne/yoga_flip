@@ -258,6 +258,7 @@ function reset() {
   setTimeout(() => {
     hasFlippedCard = false;
     [firstCard, secondCard] = [null, null];
+    countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
     moves = 0;
     moves2 = 0;
     moves3 = 0;
