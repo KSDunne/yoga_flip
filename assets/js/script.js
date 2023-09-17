@@ -30,6 +30,7 @@ function resetStartCountdown() {
 }
 
 // flip card function
+// credit for timer start onclick of flipcard function: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master
 function flipCard() {
   if (!gameOn) {
     gameOn = true;
