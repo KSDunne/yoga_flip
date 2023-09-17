@@ -12,6 +12,9 @@ let moves3 = 0;
 // adding seconds to current date for countdown */
 let countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
 
+// for timer
+let gameOn = false;
+
 // start of main memory game logic
 // credit for main memory game logic: https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae
 const memory_cards = document.querySelectorAll(".cards");
@@ -20,8 +23,21 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
+//every second after the first flip, the resetStartCountdown function is run, the '1000' in the following code block is allowing this
+function resetStartCountdown() {
+  startCountdown();
+  timerInterval = setInterval(startCountdown, 1000);
+}
+
 // flip card function
 function flipCard() {
+  if (!gameOn) {
+    gameOn = true;
+    countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
+    clearInterval(timerInterval);
+    resetStartCountdown();
+  }
+
   if (lockBoard) return;
   if (this === firstCard) return;
 
@@ -161,12 +177,6 @@ const endCountdown = () => {
   winContent.classList.add("hidden");
   timerEndContent.classList.add("visible");
 };
-
-//every second the startCountdown function is run, the '1000' in the following code block is allowing this
-window.addEventListener("load", () => {
-  startCountdown();
-  timerInterval = setInterval(startCountdown, 1000);
-});
 
 // end of countdown timer logic
 
