@@ -250,28 +250,6 @@ function winNumberReached() {
 
 //start of logic for when reset button is clicked
 
-function resetStartCountdown() {
-  startCountdown();
-  timerInterval = setInterval(startCountdown, 1000);
-}
-
 function reset() {
-  setTimeout(() => {
-    hasFlippedCard = false;
-    [firstCard, secondCard] = [null, null];
-    countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
-    moves = 0;
-    moves2 = 0;
-    moves3 = 0;
-    moveContainer.innerHTML = 0;
-    moveContainer2.innerHTML = 0;
-    moveContainer3.innerHTML = 0;
-    clearInterval(timerInterval);
-    resetStartCountdown();
-    minutesElement.innerHTML = 0;
-    secondsElement.innerHTML = 0;
-    memory_cards.forEach((cardReset) => cardReset.classList.remove("flip"));
-    shuffle();
-    memory_cards.forEach((card) => card.addEventListener("click", flipCard));
-  }, 500);
+  location.href = location.href;
 }
