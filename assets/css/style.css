@@ -398,6 +398,48 @@ main {
   cursor: pointer;
 }
 
+/* start of scoreboard area */
+/* credit for scoreboard: https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game/tree/main */
+.scores-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 8px 0px 0px 0px;
+}
+
+.scores-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2% 0% 1% 0%;
+  font-weight: bold;
+  background-color: #ffef0a;
+  color: #2a2a2a;
+  border-radius: 14px;
+  width: 38%;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.score-heading {
+  font-family: "Oxygen", sans-serif;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  color: #d47cfa;
+}
+
+.score-display-item {
+  font-size: 95%;
+}
+
+/* end of scoreboard area */
+
 /* footer */
 footer {
   background-color: #d47cfa;

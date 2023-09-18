@@ -240,39 +240,57 @@
             Reset Game
           </button>
         </div>
-      </main>
 
-      <!-- reset modal -->
-      <!-- modal credit 1: https://www.w3schools.com/howto/howto_css_modals.asp -->
-      <!-- modal credit 2: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master -->
-      <section>
-        <div class="sure-modal-class" id="sure-modal-id">
-          <div class="sure-modal-card">
-            <div class="sure-card-body">
-              <div class="modal-sure-heading">
-                <h2>Are You Sure You Want To Reset The Cards?</h2>
+        <!-- reset modal -->
+        <!-- modal credit 1: https://www.w3schools.com/howto/howto_css_modals.asp -->
+        <!-- modal credit 2: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master -->
+        <section>
+          <div class="sure-modal-class" id="sure-modal-id">
+            <div class="sure-modal-card">
+              <div class="sure-card-body">
+                <div class="modal-sure-heading">
+                  <h2>Are You Sure You Want To Reset The Cards?</h2>
+                </div>
+                <div class="continue-playing-container">
+                  <button
+                    id="continue-playing-button-id"
+                    class="continue-playing-button"
+                  >
+                    Continue Playing!
+                  </button>
+                </div>
+                <div class="reset-modal-button-container">
+                  <button
+                    id="reset-modal-button-id"
+                    class="reset-modal-button"
+                    onclick="reset()"
+                  >
+                    Yes, Reset!
+                  </button>
+                </div>
               </div>
-              <div class="continue-playing-container">
-                <button
-                  id="continue-playing-button-id"
-                  class="continue-playing-button"
-                >
-                  Continue Playing!
-                </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- credit for scoreboard: https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game/tree/main -->
+        <!-- scoreboard -->
+        <div class="scores-container-1">
+          <div class="scores-container">
+            <div class="scores">
+              <h3 class="score-heading">My scores:</h3>
+              <div class="score-display-item">
+                <h4>Score:</h4>
+                <span class="counter" id="score">0</span>
               </div>
-              <div class="reset-modal-button-container">
-                <button
-                  id="reset-modal-button-id"
-                  class="reset-modal-button"
-                  onclick="reset()"
-                >
-                  Yes, Reset!
-                </button>
+              <div class="score-display-item">
+                <h4>Best score:</h4>
+                <span class="counter" id="best-score">0</span>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </main>
 
       <!-- credit for footer: whisper rs portfolio project 1 -->
       <!-- footer -->
