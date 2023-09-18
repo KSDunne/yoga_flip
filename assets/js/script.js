@@ -217,13 +217,6 @@ closebtn.onclick = function () {
   modal.style.display = "none";
 };
 
-// when the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
-
 // start of logic for game win
 let winNumber = 0;
 function winCountFunction() {
@@ -287,7 +280,9 @@ continueButton.onclick = function () {
 
 // when the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-  if (event.target == sureModal) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  } else if (event.target == sureModal) {
     sureModal.style.display = "none";
   }
 };
