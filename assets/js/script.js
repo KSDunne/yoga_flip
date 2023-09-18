@@ -19,6 +19,10 @@ const bestScoreEl = document.getElementById("best-score");
 // start with an empty originalScores array and bestScores array
 let originalScores = [];
 let bestScores = [];
+let myObj = {
+  highScoreIteration: ["Score1", "Score2", "Score3", "Score4", "Score5"],
+  storedScore: ["1", "2", "3", "4", "5"],
+};
 
 // adding seconds to current date for countdown */
 let countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
@@ -311,7 +315,10 @@ function calcScore() {
   // display current score
   scoreEl.innerHTML = score;
   // store all scores in bestScore array
-  originalScores.push(score);
+  let array1 = myObj["storedScore"];
+  array1.push(score);
+  let myObj_seralized = JSON.stringify(myObj);
+  localStorage.setItem("myObj", myObj_seralized);
 }
 
 function calcBestScore() {
