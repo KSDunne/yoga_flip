@@ -10,6 +10,16 @@ let moves2 = 0;
 const moveContainer3 = document.querySelector(".moves3");
 let moves3 = 0;
 
+// retrieve score element for scoreboard
+const scoreEl = document.getElementById("score");
+
+// retrieve best score element for scoreboard
+const bestScoreEl = document.getElementById("best-score");
+
+// start with an empty originalScores array and bestScores array
+let originalScores = [];
+let bestScores = [];
+
 // adding seconds to current date for countdown */
 let countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
 
@@ -91,6 +101,8 @@ function unflipCards() {
   addMove();
   addMove2();
   addMove3();
+  calcScore();
+  calcBestScore();
 }
 
 // credit for move counter code: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master
@@ -254,6 +266,7 @@ function winNumberReached() {
 // full reset function
 function reset() {
   location.href = location.href;
+  // localStorage.setItem("score", JSON.stringify(score));
 }
 
 // start of logic for 'are you sure you want to reset?' modal, which appears when the reset button on the main game page is clicked
@@ -288,3 +301,23 @@ window.onclick = function (event) {
     sureModal.style.display = "none";
   }
 };
+
+// start of logic for scoreboard
+
+// calculate scores
+function calcScore() {
+  let score = Number(moves) * 10;
+  //let score = Number(Math.round((10000 - moves) / seconds));
+  // display current score
+  scoreEl.innerHTML = score;
+  // store all scores in bestScore array
+  originalScores.push(score);
+}
+
+function calcBestScore() {
+  let bestScore = Number(moves2) * 10;
+  //let score = Number(Math.round((10000 - moves) / seconds));
+  // display current score
+  bestScoreEl.innerHTML = bestScore;
+  bestScores.push(bestScore);
+}
