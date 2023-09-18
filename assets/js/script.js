@@ -1,4 +1,5 @@
 // script.js
+// Note: A defensive design was built into this project in the reset button
 
 const moveContainer = document.querySelector(".moves");
 let moves = 0;
@@ -249,12 +250,13 @@ function winNumberReached() {
 }
 // end of logic for game win
 
-//start of logic for when reset button is clicked, this contains defensive programming because it includes an 'are you sure you want to rest the game' alert/
+//start of logic for when the main reset button is clicked, this contains a defensive design because it includes an 'are you sure you want to reset the game? modal
+// full reset function
 function reset() {
   location.href = location.href;
 }
 
-// start of logic for 'are you sure you want to reset?' modal
+// start of logic for 'are you sure you want to reset?' modal, which appears when the reset button on the main game page is clicked
 // credit for rules modal logic: https://www.w3schools.com/howto/howto_css_modals.asp
 
 // get the modal
