@@ -265,27 +265,29 @@ function reset() {
 // credit for rules modal logic: https://www.w3schools.com/howto/howto_css_modals.asp
 
 // get the modal
-var modal = document.getElementById("sure-modal-id");
+var sureModal = document.getElementById("sure-modal-id");
 
 // get the button that opens the modal
-var button = document.getElementById("reset-button-main-page");
+var mainResetButton = document.getElementById("reset-button-main-page");
 
 // get the element that closes the modal
-var closebtn = document.getElementsByClassName("continue-playing-button")[0];
+var continueButton = document.getElementsByClassName(
+  "continue-playing-button"
+)[0];
 
 // when the user clicks on the button, open the modal
-button.onclick = function () {
-  modal.style.display = "flex";
+mainResetButton.onclick = function () {
+  sureModal.style.display = "flex";
 };
 
 // when the user clicks on closebtn, close the modal
-closebtn.onclick = function () {
-  modal.style.display = "none";
+continueButton.onclick = function () {
+  sureModal.style.display = "none";
 };
 
 // when the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == sureModal) {
+    sureModal.style.display = "none";
   }
 };
