@@ -413,10 +413,11 @@ main {
   justify-content: center;
   margin: 2% 0% 1% 0%;
   font-weight: bold;
-  background-color: #ffef0a;
-  color: #2a2a2a;
+  background-color: rgba(250, 212, 124, 0.1);
+  color: #ffef0a;
   border-radius: 14px;
   width: 38%;
+  box-shadow: 0.1rem 0.1rem #ffef0a;
 }
 
 .scores {
@@ -431,7 +432,7 @@ main {
   font-family: "Oxygen", sans-serif;
   margin-top: 5px;
   padding-bottom: 5px;
-  color: #d47cfa;
+  color: #ffef0a;
 }
 
 .score-display-item {
@@ -591,6 +592,19 @@ footer {
     font-size: 200%;
     padding: 6% 4% 2% 4%;
   }
+
+  .scores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% 0% 1% 0%;
+    font-weight: bold;
+    background-color: rgba(250, 212, 124, 0.1);
+    color: #ffef0a;
+    border-radius: 14px;
+    width: 28%;
+    box-shadow: 0.1rem 0.1rem #ffef0a;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -599,6 +613,19 @@ footer {
   h1 {
     font-size: 220%;
     padding: 4% 2% 1% 2%;
+  }
+
+  .scores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% 0% 1% 0%;
+    font-weight: bold;
+    background-color: rgba(250, 212, 124, 0.1);
+    color: #ffef0a;
+    border-radius: 14px;
+    width: 20%;
+    box-shadow: 0.1rem 0.1rem #ffef0a;
   }
 }
 
@@ -616,5 +643,18 @@ footer {
     padding: 1em;
     font-weight: bold;
     font-size: 106%;
+  }
+
+  .scores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% 0% 1% 0%;
+    font-weight: bold;
+    background-color: rgba(250, 212, 124, 0.1);
+    color: #ffef0a;
+    border-radius: 14px;
+    width: 18%;
+    box-shadow: 0.1rem 0.1rem #ffef0a;
   }
 }
