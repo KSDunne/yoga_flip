@@ -21,8 +21,9 @@ let originalScores = [];
 let bestScores = [];
 let myObj = {
   highScoreIteration: ["Score1", "Score2", "Score3", "Score4", "Score5"],
-  storedScore: ["1", "2", "3", "4", "5"],
+  storedScore: [1, 2, 3, 4, 5],
 };
+let array1 = myObj["storedScore"];
 
 // adding seconds to current date for countdown */
 let countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
@@ -315,14 +316,13 @@ function calcScore() {
   // display current score
   scoreEl.innerHTML = score;
   // store all scores in bestScore array
-  let array1 = myObj["storedScore"];
   array1.push(score);
   let myObj_seralized = JSON.stringify(myObj);
   localStorage.setItem("myObj", myObj_seralized);
 }
 
 function calcBestScore() {
-  let bestScore = Number(moves2) * 10;
+  let bestScore = Math.max(...array1);
   //let score = Number(Math.round((10000 - moves) / seconds));
   // display current score
   bestScoreEl.innerHTML = bestScore;
