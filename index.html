@@ -236,9 +236,48 @@
         </section>
 
         <div class="reset-area">
-          <button class="reset-btn" onclick="reset()">Reset Game</button>
+          <button class="reset-btn" id="reset-button-main-page">
+            Reset Game
+          </button>
         </div>
       </main>
+
+      <!-- reset modal -->
+      <!-- modal credit 1: https://www.w3schools.com/howto/howto_css_modals.asp -->
+      <!-- modal credit 2: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master -->
+      <section>
+        <div class="sure-modal-class" id="sure-modal-id">
+          <div class="sure-modal-card">
+            <div class="sure-card-body">
+              <div class="modal-heading">
+                <h2>Rules:</h2>
+              </div>
+              <div class="you-sure-div">
+                <p class="you-sure">
+                  <strong>Are you sure you want to reset cards?</strong>
+                </p>
+              </div>
+              <div class="continue-playing-container">
+                <button
+                  id="continue-playing-button-id"
+                  class="continue-playing-button"
+                >
+                  Continue Playing!
+                </button>
+              </div>
+              <div class="reset-modal-button-container">
+                <button
+                  id="reset-modal-button-id"
+                  class="reset-modal-button"
+                  onclick="reset()"
+                >
+                  Yes, Reset!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- credit for footer: whisper rs portfolio project 1 -->
       <!-- footer -->
