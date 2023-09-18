@@ -24,6 +24,7 @@ let myObj = {
   storedScore: [1, 2, 3, 4, 5],
 };
 let array1 = myObj["storedScore"];
+let myObj_seralized = "";
 
 // adding seconds to current date for countdown */
 let countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
@@ -107,6 +108,7 @@ function unflipCards() {
   addMove2();
   addMove3();
   calcScore();
+  serialize();
   calcBestScore();
 }
 
@@ -317,6 +319,9 @@ function calcScore() {
   scoreEl.innerHTML = score;
   // store all scores in bestScore array
   array1.push(score);
+}
+
+function serialize() {
   let myObj_seralized = JSON.stringify(myObj);
   localStorage.setItem("myObj", myObj_seralized);
 }
