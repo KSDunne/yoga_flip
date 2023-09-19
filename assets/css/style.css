@@ -523,7 +523,8 @@ footer {
   width: 100%;
 }
 
-.timer-end-game-title {
+.timer-end-game-title,
+.win-page-game-title {
   padding: 0% 0% 2% 0%;
 }
 
