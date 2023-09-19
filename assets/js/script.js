@@ -16,20 +16,13 @@ const scoreEl = document.getElementById("score");
 // retrieve best score element for scoreboard
 const bestScoreEl = document.getElementById("best-score");
 
-// start with an empty originalScores array and bestScores array
-let originalScores = [];
+// start with an empty scores arrays
 let bestScores = [];
-let myObj = {
-  highScoreIteration: ["Score1", "Score2", "Score3", "Score4", "Score5"],
-  storedScore: [1, 2, 3, 4, 5],
-};
 let myObj2 = {};
-let array1 = myObj["storedScore"];
-let arrayTues = [1, 2, 3];
-let myObj_seralized = "";
-let mostRecentScore = [];
 let myScoreArray = [];
 let nums = [];
+
+//leaving local storage clear here, commented out, because it is useful in some development senarios with the scoreboard
 //localStorage.clear();
 
 // adding seconds to current date for countdown */
