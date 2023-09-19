@@ -453,6 +453,14 @@ main {
 
 /* end of scoreboard area */
 
+/* styling for using screen real estate */
+.screen-game-compare-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* footer */
 footer {
   background-color: #d47cfa;
@@ -605,6 +613,13 @@ footer {
     padding: 6% 4% 2% 4%;
   }
 
+  .scores-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+  }
+
   .scores-container {
     display: flex;
     flex-wrap: wrap;
@@ -614,8 +629,27 @@ footer {
     background-color: rgba(212, 124, 250, 0.8);
     color: #ffe5ed;
     border-radius: 14px;
-    width: 26%;
+    width: 60%;
     box-shadow: 0.1rem 0.1rem #0fff50;
+  }
+
+  .score-display-item {
+    font-size: 95%;
+    padding: 10px 6px 12px 6px;
+    line-height: 25px;
+  }
+
+  .score-heading {
+    font-family: "Oxygen", sans-serif;
+    margin-top: 5px;
+    padding: 18px 0px 10px 0px;
+    color: #ffe5ed;
+    font-weight: bolder;
+    font-size: 115%;
+  }
+
+  .improved {
+    padding: 6px 0px 26px 0px;
   }
 }
 
@@ -627,6 +661,13 @@ footer {
     padding: 4% 2% 1% 2%;
   }
 
+  .scores-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+  }
+
   .scores-container {
     display: flex;
     flex-wrap: wrap;
@@ -636,14 +677,27 @@ footer {
     background-color: rgba(212, 124, 250, 0.8);
     color: #ffe5ed;
     border-radius: 14px;
-    width: 18%;
+    width: 60%;
     box-shadow: 0.1rem 0.1rem #0fff50;
   }
 
   .score-display-item {
     font-size: 95%;
-    padding: 5px 6px 8px 6px;
+    padding: 10px 6px 12px 6px;
     line-height: 25px;
+  }
+
+  .score-heading {
+    font-family: "Oxygen", sans-serif;
+    margin-top: 5px;
+    padding: 18px 0px 10px 0px;
+    color: #ffe5ed;
+    font-weight: bolder;
+    font-size: 115%;
+  }
+
+  .improved {
+    padding: 6px 0px 26px 0px;
   }
 }
 
@@ -663,6 +717,13 @@ footer {
     font-size: 106%;
   }
 
+  .scores-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+  }
+
   .scores-container {
     display: flex;
     flex-wrap: wrap;
@@ -672,13 +733,26 @@ footer {
     background-color: rgba(212, 124, 250, 0.8);
     color: #ffe5ed;
     border-radius: 14px;
-    width: 16%;
+    width: 60%;
     box-shadow: 0.1rem 0.1rem #0fff50;
   }
 
   .score-display-item {
     font-size: 95%;
-    padding: 5px 6px 8px 6px;
+    padding: 10px 6px 12px 6px;
     line-height: 25px;
+  }
+
+  .score-heading {
+    font-family: "Oxygen", sans-serif;
+    margin-top: 5px;
+    padding: 18px 0px 10px 0px;
+    color: #ffe5ed;
+    font-weight: bolder;
+    font-size: 115%;
+  }
+
+  .improved {
+    padding: 6px 0px 26px 0px;
   }
 }
