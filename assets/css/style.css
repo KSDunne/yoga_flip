@@ -652,6 +652,45 @@ footer {
   .improved {
     padding: 6px 0px 26px 0px;
   }
+
+  .rules-modal-card {
+    font-family: "Poppins", sans-serif;
+    border: 0.8em solid #d47cfa;
+    background-color: #fffae6;
+    border-radius: 18px;
+    padding: 5%;
+    margin: 100px 140px 100px 140px;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rule-list li {
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 96%;
+  }
+
+  .sure-modal-card {
+    font-family: "Poppins", sans-serif;
+    border: 0.8em solid #d47cfa;
+    background-color: #fffae6;
+    border-radius: 18px;
+    padding: 5%;
+    margin: 100px 140px 100px 140px;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -699,6 +738,45 @@ footer {
 
   .improved {
     padding: 6px 0px 26px 0px;
+  }
+
+  .rules-modal-card {
+    font-family: "Poppins", sans-serif;
+    border: 0.8em solid #d47cfa;
+    background-color: #fffae6;
+    border-radius: 18px;
+    padding: 5%;
+    margin: 100px 140px 100px 140px;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rule-list li {
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 96%;
+  }
+
+  .sure-modal-card {
+    font-family: "Poppins", sans-serif;
+    border: 0.8em solid #d47cfa;
+    background-color: #fffae6;
+    border-radius: 18px;
+    padding: 5%;
+    margin: 100px 140px 100px 140px;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -755,5 +833,44 @@ footer {
 
   .improved {
     padding: 6px 0px 26px 0px;
+  }
+
+  .rules-modal-card {
+    font-family: "Poppins", sans-serif;
+    border: 0.8em solid #d47cfa;
+    background-color: #fffae6;
+    border-radius: 18px;
+    padding: 5%;
+    margin: 100px 140px 100px 140px;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rule-list li {
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 96%;
+  }
+
+  .sure-modal-card {
+    font-family: "Poppins", sans-serif;
+    border: 0.8em solid #d47cfa;
+    background-color: #fffae6;
+    border-radius: 18px;
+    padding: 5%;
+    margin: 100px 140px 100px 140px;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
