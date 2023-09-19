@@ -413,11 +413,11 @@ main {
   justify-content: center;
   margin: 6% 0% 8% 0%;
   font-weight: bold;
-  background-color: rgba(212, 124, 250, 0.8);
-  color: #ffef0a;
+  background-color: rgba(212, 124, 250, 0.9);
+  color: #ffe5ed;
   border-radius: 14px;
-  width: 52%;
-  box-shadow: 0.1rem 0.1rem #ffef0a;
+  width: 64%;
+  box-shadow: 0.1rem 0.1rem #0fff50;
 }
 
 .scores {
@@ -431,12 +431,24 @@ main {
 .score-heading {
   font-family: "Oxygen", sans-serif;
   margin-top: 5px;
-  padding-bottom: 5px;
-  color: #ffef0a;
+  padding: 10px 0px 10px 0px;
+  color: #ffe5ed;
+  font-weight: bolder;
+  font-size: 120%;
 }
 
 .score-display-item {
   font-size: 95%;
+  padding: 5px 0px 8px 0px;
+  line-height: 25px;
+}
+
+.counter {
+  color: #0fff50;
+}
+
+.improved {
+  padding: 2px 0px 18px 0px;
 }
 
 /* end of scoreboard area */
@@ -600,10 +612,10 @@ footer {
     margin: 2% 0% 1% 0%;
     font-weight: bold;
     background-color: rgba(212, 124, 250, 0.8);
-    color: #ffef0a;
+    color: #ffe5ed;
     border-radius: 14px;
     width: 26%;
-    box-shadow: 0.1rem 0.1rem #ffef0a;
+    box-shadow: 0.1rem 0.1rem #0fff50;
   }
 }
 
@@ -622,10 +634,10 @@ footer {
     margin: 2% 0% 1% 0%;
     font-weight: bold;
     background-color: rgba(212, 124, 250, 0.8);
-    color: #ffef0a;
+    color: #ffe5ed;
     border-radius: 14px;
     width: 18%;
-    box-shadow: 0.1rem 0.1rem #ffef0a;
+    box-shadow: 0.1rem 0.1rem #0fff50;
   }
 }
 
@@ -652,9 +664,9 @@ footer {
     margin: 2% 0% 1% 0%;
     font-weight: bold;
     background-color: rgba(212, 124, 250, 0.8);
-    color: #ffef0a;
+    color: #ffe5ed;
     border-radius: 14px;
     width: 16%;
-    box-shadow: 0.1rem 0.1rem #ffef0a;
+    box-shadow: 0.1rem 0.1rem #0fff50;
   }
 }
