@@ -23,8 +23,14 @@ let myObj = {
   highScoreIteration: ["Score1", "Score2", "Score3", "Score4", "Score5"],
   storedScore: [1, 2, 3, 4, 5],
 };
+let myObj2 = {};
 let array1 = myObj["storedScore"];
+let arrayTues = [1, 2, 3];
 let myObj_seralized = "";
+let mostRecentScore = [];
+let myScoreArray = [];
+let nums = [];
+//localStorage.clear();
 
 // adding seconds to current date for countdown */
 let countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
@@ -108,8 +114,8 @@ function unflipCards() {
   addMove2();
   addMove3();
   calcScore();
-  serialize();
-  calcBestScore();
+  save();
+  view();
 }
 
 // credit for move counter code: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master
@@ -311,25 +317,34 @@ window.onclick = function (event) {
 
 // start of logic for scoreboard
 
-// calculate scores
+// the following adds a move number to the end of an array every time a move is made
+
 function calcScore() {
-  let score = Number(moves) * 10;
-  //let score = Number(Math.round((10000 - moves) / seconds));
-  // display current score
+  let score = moves;
   scoreEl.innerHTML = score;
-  // store all scores in bestScore array
-  array1.push(score);
+  bestScores.push(score);
 }
 
-function serialize() {
-  let myObj_seralized = JSON.stringify(myObj);
-  localStorage.setItem("myObj", myObj_seralized);
+// a new array saves to local storage everytime the move number goes up
+function save() {
+  var new_data = Math.max(...bestScores);
+  if (localStorage.getItem("data") == null) {
+    localStorage.setItem("data", "[]");
+  }
+  var old_data = JSON.parse(localStorage.getItem("data"));
+  old_data.push(new_data);
+
+  localStorage.setItem("data", JSON.stringify(old_data));
 }
 
-function calcBestScore() {
-  let bestScore = Math.max(...array1);
-  //let score = Number(Math.round((10000 - moves) / seconds));
-  // display current score
-  bestScoreEl.innerHTML = bestScore;
-  bestScores.push(bestScore);
+function view() {
+  myObj2 = { data: JSON.parse(localStorage.getItem("data")) };
+  myScoreArray = myObj2.data;
+
+  nums = myScoreArray.map(function (str) {
+    return parseInt(str);
+  });
+
+  nums = Math.max(...nums);
+  document.getElementById("best-score").innerHTML = nums;
 }
