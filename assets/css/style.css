@@ -445,6 +445,7 @@ main {
 
 .counter {
   color: #0fff50;
+  font-weight: bolder;
 }
 
 .improved {
