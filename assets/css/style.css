@@ -523,6 +523,10 @@ footer {
   width: 100%;
 }
 
+.timer-end-game-title {
+  padding: 0% 0% 2% 0%;
+}
+
 #timer-running.hidden {
   animation: fadeOut 0.8s forwards;
 }
