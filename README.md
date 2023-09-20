@@ -264,7 +264,7 @@ The main color I am taking from the secondary color palette is: Pink
 
 Love Maths
 
-[Grid Game Medium](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/)
+[Grid Game Medium Tutorial](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/)
 
 [CI Student Memory Card Game 1](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master)
 
