@@ -71,7 +71,7 @@ main {
 }
 
 /* credit for timer code that was adjusted for my own use: tutorial at the following address, https://github.com/adipurdila/countdown-timer/tree/main */
-#timer-container {
+.timer-container {
   list-style: none;
   display: flex;
   flex-direction: row;
