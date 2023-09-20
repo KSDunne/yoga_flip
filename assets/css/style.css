@@ -552,10 +552,8 @@ footer {
 
 #win-page.visible {
   display: flex;
-  height: 100vh;
-  justify-content: center;
+  height: 140vh;
   animation: fadeIn 0.8s forwards 0.8s;
-  min-height: 100vh;
   flex-direction: column;
   color: #ffef0a;
   font-family: "Oxygen", sans-serif;
@@ -575,8 +573,8 @@ footer {
 .win-container {
   display: flex;
   justify-content: center;
-  height: 250px;
-  padding-top: 120px;
+  height: 300px;
+  padding-top: 130px;
 }
 
 @keyframes fadeIn {
