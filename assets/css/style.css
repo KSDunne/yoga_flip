@@ -568,8 +568,8 @@ footer {
 .time-out-container {
   display: flex;
   justify-content: center;
-  height: 250px;
-  padding-top: 120px;
+  height: 300px;
+  padding-top: 130px;
 }
 
 .win-container {
