@@ -546,7 +546,7 @@ footer {
 
 #timer-end.visible {
   display: flex;
-  height: 100vh;
+  height: 200vh;
   justify-content: center;
   animation: fadeIn 0.8s forwards 0.8s;
 }
