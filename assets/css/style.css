@@ -527,7 +527,7 @@ footer {
 
 .timer-end-game-title,
 .win-page-game-title {
-  padding: 0% 0% 2% 0%;
+  padding: 4% 0% 2% 0%;
 }
 
 #timer-running.hidden {
@@ -546,8 +546,7 @@ footer {
 
 #timer-end.visible {
   display: flex;
-  height: 200vh;
-  justify-content: center;
+  height: 140vh;
   animation: fadeIn 0.8s forwards 0.8s;
 }
 
