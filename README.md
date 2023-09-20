@@ -62,11 +62,11 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 - As a site visitor, I will see that the timer starts when I flip the first card
 - As a site visitor, I will see that a move is logged when the second card is flipped
 - As a site visitor, I will see that the timer stops once I finish matching all of the 16 cards on the grid
-- As a site visitor, I will be able to click a button that says "challenge" to get a random yoga pose to try at home for fun. This will pop up via a modal.
+- As a site visitor, I will be able to click a button that says "rules" and the rules of the game will pop up. This will pop up via a modal.
 - As a site visitor, I will be able to close this modal whenever I want
 - As a site visitor, I will be able to click a "reset" button at any time during the game to flip all the cards over to start again
 - As a site visitor, I will be able to see links in the footer for social media sites to a specific yoga studio. This will encourage me to go there for in-person lessons
-- As a site visitor, the value I get from this site is; I have fun in a time of boredom, I learn the names of the yoga poses, if my fitness allows I get some activity in my day by doing the yoga pose challenge and I can also find ways to contact an in-person yoga studio
+- As a site visitor, the value I get from this site is; I have fun in a time of boredom, I learn the names of the yoga poses and I can also find ways to contact an in-person yoga studio
 
 ## Features
 
