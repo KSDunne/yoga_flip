@@ -2,7 +2,7 @@
 
 (Developer: Katie Dunne)
 
-AmIResponsive Image
+![AmIResponsive Image](docs/amiresponsive_screenshot.webp)
 
 ## Live website
 
