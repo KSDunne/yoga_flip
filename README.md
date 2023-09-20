@@ -40,6 +40,20 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ### User requirements and expectations
 
+- A visually appealing and intuitively structured website / game that works well and is easy to see and read on all screen sizes
+- An intuitive navigation system wheather using a mobile, tablet or monitor
+- An accessible website / game for all users
+- A website / game that loads quickly on all devices and connections
+- A memory game that works seemlessly
+- An ability to track their score
+- A fun way to be challenged against the computer, with a countdown timer to a time out page
+- A way to learn the names of popular yoga poses
+- An ability to find the rules of the game easily
+- An ability to reset the board, move-number and timer
+- A defensive design, so that the user does not reset their game prematurly by accident
+- A way to see if they are they improving as they play the game a few times
+- Ability to quickly find social links to a yoga business
+
 ## User stories
 
 - As a site visitor, I am first assessing if this is an intuitive and eye-catching game that I would like to play
