@@ -146,7 +146,7 @@ The main color I am taking from the secondary color palette is: Pink
 
 ![Time out screen Tablet](docs/wireframes/tablet_time_out_screen.png)
 
-![Time out screen Monitor](docs/wireframes/monitor_time_out_screen.png)
+![Time out screen Monitor](docs/wireframes/monitor_time_out_page.png)
 
 ### Win screen wireframes
 
