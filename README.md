@@ -116,21 +116,45 @@ The main color I am taking from the secondary color palette is: Pink
 
 ## Wireframes
 
-### Index Page Wireframes
+### Index page wireframes
 
-![Index iPhone SE](docs/wireframes/index_iphonese.png)
+![Index iPhone SE](docs/wireframes/iphone_index.png)
 
-![Index Tablet](docs/wireframes/index_tablet.png)
+![Index Tablet](docs/wireframes/tablet_index.png)
 
-![Index Monitor](docs/wireframes/index_monitor.png)
+![Index Monitor](docs/wireframes/monitor_index.png)
 
-### Challenge Modal Wireframes
+### Rules modal wireframes
 
-![Challenge Modal iPhone SE](docs/wireframes/challenge_modal_iphonese.png)
+![Rules Modal iPhone SE](docs/wireframes/iphone_rules_modal.png)
 
-![Challenge Modal Tablet](docs/wireframes/challenge_modal_tablet.png)
+![Rules Modal Tablet](docs/wireframes/tablet_rules_modal.png)
 
-![Challenge Modal Monitor](docs/wireframes/challenge_modal_monitor.png)
+![Rules Modal Monitor](docs/wireframes/monitor_rules_modal.png)
+
+### Are you sure modal wireframes
+
+![Are You Sure Modal iPhone SE](docs/wireframes/iphone_sure_modal.png)
+
+![Are You Sure Modal Tablet](docs/wireframes/tablet_sure_modal.png)
+
+![Are You Sure Modal Monitor](docs/wireframes/monitor_sure_modal.png)
+
+### Time out screen wireframes
+
+![Time out screen iPhone SE](docs/wireframes/iphone_time_out_screen.png)
+
+![Time out screen Tablet](docs/wireframes/tablet_time_out_screen.png)
+
+![Time out screen Monitor](docs/wireframes/monitor_time_out_screen.png)
+
+### Win screen wireframes
+
+![Win screen iPhone SE](docs/wireframes/iphone_win_screen.png)
+
+![Win screen Tablet](docs/wireframes/tablet_win_screen.png)
+
+![Win screen Monitor](docs/wireframes/monitor_win_page.png)
 
 ## Technology
 
