@@ -280,4 +280,4 @@ Love Maths
 
 ## Acknowledgements
 
-Thank you to friends, family and pets for the massive support. Also thank you to the leader of our CI cohort :sparkles:
+Thank you to friends, family and pets for the massive support. Also thank you to my mentor and the leader of our CI cohort :sparkles:
