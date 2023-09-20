@@ -26,7 +26,7 @@ let nums = [];
 //localStorage.clear();
 
 // adding seconds to current date for countdown */
-let countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
+let countdownDate = new Date().setSeconds(new Date().getSeconds() + 100);
 
 // for timer
 let gameOn = false;
@@ -50,7 +50,7 @@ function resetStartCountdown() {
 function flipCard() {
   if (!gameOn) {
     gameOn = true;
-    countdownDate = new Date().setSeconds(new Date().getSeconds() + 80);
+    countdownDate = new Date().setSeconds(new Date().getSeconds() + 100);
     clearInterval(timerInterval);
     resetStartCountdown();
   }

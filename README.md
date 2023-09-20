@@ -70,31 +70,33 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ## Features
 
-### Main Game Page
+#### Main Game Page
 
 #### Title of game with icon
-
-#### Grid of 16 cards
 
 #### Moves tracker
 
 #### Countdown Timer
 
+#### Grid of 16 cards
+
 #### Name of pose on the cards that have just been matched
 
 #### Rules modal button
+
+#### Button to close rules modal
 
 #### Reset button with a defensive design
 
 #### Footer with social links
 
-### Modal
-
-#### Name of a pose
-
 #### Picture of a poses
 
-#### Button to close modal
+#### Time out page
+
+#### Win page
+
+#### Compare board with a local storage feature
 
 ## Future Features
 
