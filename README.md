@@ -32,6 +32,12 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ### Target audience
 
+- Users of any age that would like to play a fun game online
+- People of any age that would like to practice their memory skills
+- People that are interested in yoga
+- People that are interested in learning the names of popular yoga poses
+- People that might be interested in joining an in-person yoga class
+
 ### User requirements and expectations
 
 ## User stories
