@@ -6,7 +6,7 @@
 
 ## Live website
 
-Link to live website:
+Link to live website: [Whisper Riding School](https://ksdunne.github.io/yoga_flip/)
 
 ## Purpose of the project
 
