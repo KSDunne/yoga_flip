@@ -78,29 +78,26 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 #### Moves tracker
 
-#### Timer
+#### Countdown Timer
 
 #### Name of pose on the cards that have just been matched
 
-#### Challenge modal button
+#### Rules modal button
 
-#### Reset button
+#### Reset button with a defensive design
 
 #### Footer with social links
 
 ### Modal
 
-#### Challenge instructions
-
 #### Name of a pose
 
-#### Picture of a pose
+#### Picture of a poses
 
 #### Button to close modal
 
 ## Future Features
 
-- 'Congratulations you finished the game!' modal with moves count and time it took you to finish the game
 - An option to input a username
 - A limited number of tries before the game is over
 - A 404 page
@@ -266,6 +263,12 @@ The main color I am taking from the secondary color palette is: Pink
 ### Code
 
 Love Maths
+
+[Grid Game Medium](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/)
+
+[CI Student Memory Card Game 1](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master)
+
+[CI Student Memory Card Game 2](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game)
 
 ### Media
 
