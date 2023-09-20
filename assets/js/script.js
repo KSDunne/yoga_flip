@@ -157,8 +157,8 @@ memory_cards.forEach((card) => card.addEventListener("click", flipCard));
 // start of countdown timer logic
 // credit of code adapted for my own use: https://github.com/adipurdila/countdown-timer/tree/main
 let timerInterval;
-const minutesElement = document.querySelector("#minutes"),
-  secondsElement = document.querySelector("#seconds"),
+const minutesElement = document.querySelector(".minutes"),
+  secondsElement = document.querySelector(".seconds"),
   timerRunningContent = document.querySelector("#timer-running"),
   timerEndContent = document.querySelector("#timer-end"),
   winContent = document.querySelector("#win-page");
