@@ -546,13 +546,13 @@ footer {
 
 #timer-end.visible {
   display: flex;
-  height: 140vh;
+  height: 150vh;
   animation: fadeIn 0.8s forwards 0.8s;
 }
 
 #win-page.visible {
   display: flex;
-  height: 140vh;
+  height: 150vh;
   animation: fadeIn 0.8s forwards 0.8s;
   flex-direction: column;
   color: #ffef0a;
