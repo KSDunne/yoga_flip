@@ -527,7 +527,7 @@ footer {
 
 .timer-end-game-title,
 .win-page-game-title {
-  padding: 4% 0% 2% 0%;
+  padding: 14% 0% 2% 0%;
 }
 
 #timer-running.hidden {
@@ -697,6 +697,11 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .timer-end-game-title,
+  .win-page-game-title {
+    padding: 8% 0% 2% 0%;
+  }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -783,6 +788,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .timer-end-game-title,
+  .win-page-game-title {
+    padding: 8% 0% 2% 0%;
   }
 }
 
@@ -879,5 +889,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .timer-end-game-title,
+  .win-page-game-title {
+    padding: 6% 0% 2% 0%;
   }
 }
