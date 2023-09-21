@@ -127,11 +127,15 @@ There is a reset button in an easy to find place, under the rules button. This b
 
 #### Responsive compare board with a local storage feature
 
+The compare board has a heading with a font awesome icon. The icon represents a barchart because the user is expected to compare their current score with the maximum of resent scores in local storage. This is a way for the user to track their own progress and see are they finishing the game is less moves now than when they started playing the game. The compare board is responsive. It is displayed under the grid and buttons while on a mobile screen. It displays beside the main playing grid on tablet sized screens and upward.
+
 ![Responsive compare board on a large screen](docs/responsive_compare_board_large_screen.PNG)
 
 ![Responsive compare board on a mobile screen](docs/responsive_compare_board_mobile_screen.PNG)
 
 #### Responsive footer with social links and logo
+
+The footer uses a flexbox display. Social media links are in the footer in case a user would like to find yoga studios for in-person classes. The logo is of a person in a typcal stretching movement. The logo was initially clickable, however after a while the click feature was considered a bad design. This is because it reset the cards, move count of current game and timer. Therefore, the click feature was taken off the logo to aid a more defensive design.
 
 ![Responsive footer on a large screen](docs/responsive_footer_large_screen.PNG)
 
@@ -139,9 +143,13 @@ There is a reset button in an easy to find place, under the rules button. This b
 
 #### Attractive background that doesn't distract from the foreground
 
+The background image was chosen, because it has attractive colours that mesh with the overall theme. It shows a shadow of a person with their legs crossed in a typical yoga manner and a shadow of a tree. The background was initally a bit brighter than it is now, however after peer feedback it was blurred and darkened a bit, so that it does not distract from the foreground.
+
 ![Attractive background](docs/attractive_background.PNG)
 
 #### Favicon
+
+The color of the favicon was chosen to mesh with the overall theme of Yoga Flip. There is a capital Y in the center of a circle. The Y represents the name of the game and the color makes the page easy to locate among other open tabs.
 
 ![Favicon](docs/favicon.PNG)
 
