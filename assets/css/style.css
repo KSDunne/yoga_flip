@@ -415,7 +415,7 @@ main {
   justify-content: center;
   margin: 6% 0% 8% 0%;
   font-weight: bold;
-  background-color: rgba(212, 124, 250, 0.9);
+  background-color: #d47cfa;
   color: #ffe5ed;
   border-radius: 14px;
   width: 62%;
@@ -631,7 +631,7 @@ footer {
     justify-content: center;
     margin: 2% 0% 1% 0%;
     font-weight: bold;
-    background-color: rgba(212, 124, 250, 0.8);
+    background-color: #d47cfa;
     color: #ffe5ed;
     border-radius: 14px;
     width: 60%;
@@ -723,7 +723,7 @@ footer {
     justify-content: center;
     margin: 2% 0% 1% 0%;
     font-weight: bold;
-    background-color: rgba(212, 124, 250, 0.8);
+    background-color: #d47cfa;
     color: #ffe5ed;
     border-radius: 14px;
     width: 60%;
@@ -823,7 +823,7 @@ footer {
     justify-content: center;
     margin: 2% 0% 1% 0%;
     font-weight: bold;
-    background-color: rgba(212, 124, 250, 0.8);
+    background-color: #d47cfa;
     color: #ffe5ed;
     border-radius: 14px;
     width: 60%;
