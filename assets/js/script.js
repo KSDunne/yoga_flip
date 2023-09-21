@@ -248,7 +248,11 @@ closebtn.onclick = function () {
 let winNumber = 0;
 function winCountFunction() {
   let winCountFunction = firstCard.dataset.image === secondCard.dataset.image;
-  winCountFunction ? increaseNumber() : leaveNumber();
+  if (winCountFunction) {
+    increaseNumber();
+    return;
+  }
+  leaveNumber();
 }
 
 function increaseNumber() {
