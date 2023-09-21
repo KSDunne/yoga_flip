@@ -157,25 +157,37 @@ The color of the favicon was chosen to mesh with the overall theme of Yoga Flip.
 
 #### Rules modal
 
+The rules modal can be opened before a game or during a game. This will not interfere with the game. It can be closed by clicking on the dark colored background on the outside of the modal or by clicking the play button that is on the modal card. There is a con associated with the rules modal in that, the time does not stop running when you are reading the rules if you open it mid game. Perhaps a pause in this instance could be a future feature.
+
 ![Rules modal](docs/rules_modal.PNG)
 
 #### Rules modal play button
+
+The play button brings the user back to where they were in the game. If this was before a game had started this will have no effect on the game. If the game has already started the time will have continued to run, but the cards will still be in the same state as they were when the modal was opened.
 
 ![Rules modal play button](docs/play_button_rules_modal.PNG)
 
 #### Reset modal
 
+A modal pops up when the reset button is clicked in order to implement a defensive design. If the modal was not in place the game would have reset instantly which wouldn't be good user experience. Clicking outside of the modal has the same effect as clicking the continue playing button.
+
 ![Reset modal](docs/reset_modal.PNG)
 
 #### Reset modal buttons for continue play or reset
+
+The continue playing and reset buttons of the reset modal have a pointer cursor. The continue play button will bring the user back to where they were in the game, however time will have passed by. The reset button resets the cards, move count and countdown timer.
 
 ![Reset modal buttons](docs/reset_modal_buttons.PNG)
 
 #### Time out page
 
+The 'timer-running' content fades out and the 'timer-end' content fades in the moment the timer reaches zero. The time out content shows the yoga flip heading, the amount of moves the user has taken up until the time out and it shows the time at zero. There is a 'Time Out!' exclamation and a start over button with a pointer cursor that has the same action as the reset button except without the modal.
+
 ![Time out page](docs/time_out_page.PNG)
 
 #### Win page
+
+The win page has a similar animation to the time out page but it appears when the user hits 8 matches. The win content shows the yoga flip heading, the amount of moves the user has taken to win the game and it shows the time you were at when you won the game. There is a 'Win!' exclamation and a start over button with a pointer cursor that has the same action as the reset button except without the modal.
 
 ![Win page](docs/win_page.PNG)
 
