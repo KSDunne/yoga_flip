@@ -281,7 +281,6 @@ function winNumberReached() {
 // full reset function
 function reset() {
   location.href = location.href;
-  // localStorage.setItem("score", JSON.stringify(score));
 }
 
 // start of logic for 'are you sure you want to reset?' modal, which appears when the reset button on the main game page is clicked
