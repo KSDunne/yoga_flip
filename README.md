@@ -48,33 +48,34 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ### User requirements and expectations
 
-- A visually appealing and intuitively structured website / game that works well and is easy to see and read on all screen sizes
-- An intuitive navigation system wheather using a mobile, tablet or monitor
 - An accessible website / game for all users
+- A visually appealing memory game and intuitively structured website / game. For example, there is feedback when cards are clicked, rules button is easy to find and reset button is easy to find
+- A webpage that is responsive on all screen sizes
 - A website / game that loads quickly on all devices and connections
-- A memory game that works seemlessly
-- An ability to track their score
-- A fun way to be challenged against the computer, with a countdown timer to a time out page
+- An ability to track the amount of moves made
+- A fun way to be challenged against the computer, with a countdown timer which leads to a time-out page
 - A way to learn the names of popular yoga poses
-- An ability to find the rules of the game easily
 - An ability to reset the board, move-number and timer
-- A defensive design, so that the user does not reset their game prematurly by accident
+- A defensive design, so that the user does not reset their game prematurely by accident
 - A way to see if they are they improving as they play the game a few times
-- Ability to quickly find social links to a yoga business
+- Ability to quickly find social links which would help them find a yoga business for classes
 
 ## User stories
 
 - As a site visitor, I am first assessing if this is an intuitive and eye-catching game that I would like to play
-- As a site visitor, I will initaially see a grid style game with 16 cards. I will initailly be able to see the back-side of the cards
-- As a site visitor, I will be able to click two cards at a time. They will flip over and stay flipped over if I have matched them
+- As a site visitor, I will initially see a grid style game with 16 cards.
+- As a site visitor, I will initially be able to see the back-side of the cards
 - As a site visitor, I will see that the timer starts when I flip the first card
+- As a site visitor, I will be able to click two cards at a time. They will flip over and stay flipped over if I have matched them
 - As a site visitor, I will see that a move is logged when the second card is flipped
-- As a site visitor, I will see that the timer stops once I finish matching all of the 16 cards on the grid
-- As a site visitor, I will be able to click a button that says "rules" and the rules of the game will pop up. This will pop up via a modal.
-- As a site visitor, I will be able to close this modal whenever I want
-- As a site visitor, I will be able to click a "reset" button at any time during the game to flip all the cards over to start again
-- As a site visitor, I will be able to see links in the footer for social media sites to a specific yoga studio. This will encourage me to go there for in-person lessons
-- As a site visitor, the value I get from this site is; I have fun in a time of boredom, I learn the names of the yoga poses and I can also find ways to contact an in-person yoga studio
+- As a site visitor, I will see that the countdown timer stops once I finish matching all of the 16 cards on the grid
+- As a site visitor, I will be able to click a button that says "rules" and the rules of the game will pop up. This will pop up via a modal
+- As a site visitor, I will be able to close this modal whenever I want and return to where I was in the game
+- As a site visitor, I will be able to click a "reset" button at any time during the game
+- As a site visitor, I will make use of the defensive design in the reset button by confirming what I would like to do whether that is continue playing the game I was playing or reset all cards, timer and current moves
+- As a site visitor, I will be able to see links in the footer to social media, where I can search for yoga studios if I would like to do that. This will encourage me to a local yoga studio for in-person lessons
+- As a site visitor, I can see the max amount of moves I made in the last few times I played the game through local storage and I can compare this number to my current move number
+- Overall, as a site visitor, the value I get from this site is; I have fun, I am challenged by the countdown timer, I learn the names of the yoga poses and I can also find ways to contact an in-person yoga studio
 
 ## Features
 
