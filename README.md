@@ -30,6 +30,13 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ### Key project goals
 
+- Create an interactive memory game with a yoga theme that uses feel-good colors and striking images, while always keeping accessibility in mind
+- Make a game that provides value to the user through an educational aspect
+- Make a game that lets the user initiate the countdown timer and gives feedback through the display of each yoga pose name, when cards are successfully matched
+- Make the game responsive on multiple screen sizes
+- Use a defensive design
+- Show the user is making progress when they play the game a couple of times, through the use of local storage
+
 ### Target audience
 
 - Users of any age that would like to play a fun game online
