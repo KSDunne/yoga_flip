@@ -54,6 +54,7 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 - A website / game that loads quickly on all devices and connections
 - An ability to track the amount of moves made
 - A fun way to be challenged against the computer, with a countdown timer which leads to a time-out page
+- Feedback when the user wins a game, through the use of an animation
 - A way to learn the names of popular yoga poses
 - An ability to reset the board, move-number and timer
 - A defensive design, so that the user does not reset their game prematurely by accident
@@ -72,8 +73,9 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 - As a site visitor, I will be able to click a button that says "rules" and the rules of the game will pop up. This will pop up via a modal
 - As a site visitor, I will be able to close this modal whenever I want and return to where I was in the game
 - As a site visitor, I will be able to click a "reset" button at any time during the game
-- As a site visitor, I will make use of the defensive design in the reset button by confirming what I would like to do whether that is continue playing the game I was playing or reset all cards, timer and current moves
+- As a site visitor, I will make use of the defensive design in the reset button by confirming what I would like to do, whether that is continue playing the game I was playing or reset all cards, timer and current moves
 - As a site visitor, I will be able to see links in the footer to social media, where I can search for yoga studios if I would like to do that. This will encourage me to a local yoga studio for in-person lessons
+- As a site visitor, I will get feeback when the countdown timer reaches zero and I will get feed back when I win a game. Both of these feedback mechanisms will be animations
 - As a site visitor, I can see the max amount of moves I made in the last few times I played the game through local storage and I can compare this number to my current move number
 - Overall, as a site visitor, the value I get from this site is; I have fun, I am challenged by the countdown timer, I learn the names of the yoga poses and I can also find ways to contact an in-person yoga studio
 
