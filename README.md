@@ -85,39 +85,77 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 #### Title of game with icon
 
+![Title of game with icon](docs/title_of_game_with_icon.webp)
+
 #### Moves tracker
+
+![Moves tracker](docs/moves_tracker.webp)
 
 #### Countdown timer
 
+![Countdown timer](docs/countdown_timer.webp)
+
 #### Grid of 16 cards
+
+![Grid of 16 cards](docs/grid_of_cards.webp)
 
 #### Name of pose on the cards that have just been matched
 
+![Name of pose on the cards that have just been matched](docs/name_of_pose.webp)
+
 #### Rules button
+
+![Rules button](docs/rules_button.webp)
 
 #### Reset current game button with a defensive design
 
+![Reset current game button with a defensive design](docs/reset_button.webp)
+
 #### Responsive compare board with a local storage feature
+
+![Responsive compare board on a large screen](docs/responsive_compare_board_large_screen.webp)
+
+![Responsive compare board on a mobile screen](docs/responsive_compare_board_mobile_screen.webp)
 
 #### Responsive footer with social links and logo
 
+![Responsive footer on a large screen](docs/responsive_footer_large_screen.webp)
+
+![Responsive footer on a mobile screen](docs/responsive_footer_mobile_screen.webp)
+
 #### Attractive background that doesn't distract from the foreground
 
+![Attractive background](docs/attractive_background.webp)
+
 #### Favicon
+
+![Favicon](docs/favicon.webp)
 
 ### Modals and animations
 
 #### Rules modal
 
+![Rules modal](docs/navbar_burger.webp)
+
 #### Rules modal play button
+
+![Rules modal play button](docs/rules_modal.webp)
 
 #### Reset modal
 
+![Reset modal](docs/navbar_burger.webp)
+
 #### Reset modal buttons for continue play or reset
+
+![Reset modal buttons](docs/reset_modal.webp)
 
 #### Time out page
 
+![Time out page](docs/time_out_page.webp)
+
 #### Win page
+
+![Win page](docs/win_page.webp)
 
 ## Future Features
 
