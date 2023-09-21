@@ -101,7 +101,7 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 #### Footer with social links and logo
 
-#### Attractive background that doesn't obstruct foreground
+#### Attractive background that doesn't distract from the foreground
 
 #### Favicon
 
