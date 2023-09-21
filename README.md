@@ -135,19 +135,19 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 #### Rules modal
 
-![Rules modal](docs/navbar_burger.png)
+![Rules modal](docs/rules_modal.png)
 
 #### Rules modal play button
 
-![Rules modal play button](docs/rules_modal.png)
+![Rules modal play button](docs/rules_button.png)
 
 #### Reset modal
 
-![Reset modal](docs/navbar_burger.png)
+![Reset modal](docs/reset_modal.png)
 
 #### Reset modal buttons for continue play or reset
 
-![Reset modal buttons](docs/reset_modal.png)
+![Reset modal buttons](docs/reset_modal_buttons.png)
 
 #### Time out page
 
