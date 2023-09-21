@@ -205,7 +205,11 @@ const endCountdown = () => {
 
 function checkForMatchDisplay() {
   let isMatchDisplay = firstCard.dataset.image === secondCard.dataset.image;
-  isMatchDisplay ? editPoseName() : clearPoseName();
+  if (isMatchDisplay) {
+    editPoseName();
+    return;
+  }
+  clearPoseName();
 }
 
 function editPoseName() {
