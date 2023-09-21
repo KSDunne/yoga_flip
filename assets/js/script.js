@@ -259,10 +259,10 @@ function winNumberReached() {
     winContent.classList.add("visible");
 
     // showing time on win page
-    finalTimeSec = secondsElement.innerHTML;
+    var finalTimeSec = secondsElement.innerHTML;
     document.getElementById("total-seconds").innerHTML = finalTimeSec;
 
-    finalTimeMin = minutesElement.innerHTML;
+    var finalTimeMin = minutesElement.innerHTML;
     document.getElementById("total-minutes").innerHTML = finalTimeMin;
   }
 }
