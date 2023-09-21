@@ -85,29 +85,43 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 #### Title of game with icon
 
+A responsive game title is in place. The size of the font and padding changes with screen size. A font awesome star logo was used. A star was chosen to mesh with the sky themed background.
+
 ![Title of game with icon](docs/title_of_game_with_icon.PNG)
 
 #### Moves tracker
+
+There is a moves tracker in place. The moves tracker only increments by 1 when you mismatch 2 cards. The number increments when the 'unflipCards' function is called.
 
 ![Moves tracker](docs/moves_tracker.PNG)
 
 #### Countdown timer
 
+There is a countdown timer feature on this game. The timer only starts once the user clicks on the first card. Once it hits zero the main game content is hidden and a "new page" appears to the user that exclaims "Time Out!"
+
 ![Countdown timer](docs/countdown_timer.PNG)
 
 #### Grid of 16 cards
+
+There are 16 cards in a grid to form a memory game with a yoga theme. The picture that was chosen for the back of the cards represents meditation, which is often associated with yoga. The yoga pictures are of a real person. The idea of using cartoons was considered but the real person picture is more relatable, which will add to a feel-good emotion when playing the game. The real person picture is also educational as it is a demonstation of the yoga pose that the user could try themselves.
 
 ![Grid of 16 cards](docs/grid_of_cards.PNG)
 
 #### Name of pose on the cards that have just been matched
 
+When there is a successful match, the name of the pose that was just matched is shown in a box below the grid. This is educational, as it gives the name of the pose in layman's terms.
+
 ![Name of pose on the cards that have just been matched](docs/name_of_pose.PNG)
 
 #### Rules button
 
+Once the rules button is clicked a modal pops up. A light pink color was used for this just in case button colors are not supported on all browsers, then at least the light color theme still fits in. The rules button uses a pointer curser. The rules button is placed under the gird and pose name div, so that it is easy to find.
+
 ![Rules button](docs/rules_button.PNG)
 
 #### Reset current game button with a defensive design
+
+There is a reset button in an easy to find place, under the rules button. This button also uses a pointer curser. A defensive design was implemented here, because the user could click reset by an accident and lose the progress of their game while in the middle of playing. So to combat this potential accident, the board does not reset straight away when the reset button is clicked. Instead a modal pops up to ask the user "Are you sure you want to reset the cards?". The modal has 2 buttons with options to continue playing or to indeed reset the cards, current move counter and timer.
 
 ![Reset current game button with a defensive design](docs/reset_button.PNG)
 
