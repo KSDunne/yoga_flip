@@ -85,77 +85,77 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 #### Title of game with icon
 
-![Title of game with icon](docs/title_of_game_with_icon.png)
+![Title of game with icon](docs/title_of_game_with_icon.PNG)
 
 #### Moves tracker
 
-![Moves tracker](docs/moves_tracker.png)
+![Moves tracker](docs/moves_tracker.PNG)
 
 #### Countdown timer
 
-![Countdown timer](docs/countdown_timer.png)
+![Countdown timer](docs/countdown_timer.PNG)
 
 #### Grid of 16 cards
 
-![Grid of 16 cards](docs/grid_of_cards.png)
+![Grid of 16 cards](docs/grid_of_cards.PNG)
 
 #### Name of pose on the cards that have just been matched
 
-![Name of pose on the cards that have just been matched](docs/name_of_pose.png)
+![Name of pose on the cards that have just been matched](docs/name_of_pose.PNG)
 
 #### Rules button
 
-![Rules button](docs/rules_button.png)
+![Rules button](docs/rules_button.PNG)
 
 #### Reset current game button with a defensive design
 
-![Reset current game button with a defensive design](docs/reset_button.png)
+![Reset current game button with a defensive design](docs/reset_button.PNG)
 
 #### Responsive compare board with a local storage feature
 
-![Responsive compare board on a large screen](docs/responsive_compare_board_large_screen.png)
+![Responsive compare board on a large screen](docs/responsive_compare_board_large_screen.PNG)
 
-![Responsive compare board on a mobile screen](docs/responsive_compare_board_mobile_screen.png)
+![Responsive compare board on a mobile screen](docs/responsive_compare_board_mobile_screen.PNG)
 
 #### Responsive footer with social links and logo
 
-![Responsive footer on a large screen](docs/responsive_footer_large_screen.png)
+![Responsive footer on a large screen](docs/responsive_footer_large_screen.PNG)
 
-![Responsive footer on a mobile screen](docs/responsive_footer_mobile_screen.png)
+![Responsive footer on a mobile screen](docs/responsive_footer_mobile_screen.PNG)
 
 #### Attractive background that doesn't distract from the foreground
 
-![Attractive background](docs/attractive_background.png)
+![Attractive background](docs/attractive_background.PNG)
 
 #### Favicon
 
-![Favicon](docs/favicon.png)
+![Favicon](docs/favicon.PNG)
 
 ### Modals and animations
 
 #### Rules modal
 
-![Rules modal](docs/rules_modal.png)
+![Rules modal](docs/rules_modal.PNG)
 
 #### Rules modal play button
 
-![Rules modal play button](docs/rules_button.png)
+![Rules modal play button](docs/rules_button.PNG)
 
 #### Reset modal
 
-![Reset modal](docs/reset_modal.png)
+![Reset modal](docs/reset_modal.PNG)
 
 #### Reset modal buttons for continue play or reset
 
-![Reset modal buttons](docs/reset_modal_buttons.png)
+![Reset modal buttons](docs/reset_modal_buttons.PNG)
 
 #### Time out page
 
-![Time out page](docs/time_out_page.png)
+![Time out page](docs/time_out_page.PNG)
 
 #### Win page
 
-![Win page](docs/win_page.png)
+![Win page](docs/win_page.PNG)
 
 ## Future Features
 
