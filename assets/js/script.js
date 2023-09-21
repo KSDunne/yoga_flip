@@ -80,7 +80,11 @@ function flipCard() {
 // ternary operator
 function checkForMatch() {
   let isMatch = firstCard.dataset.image === secondCard.dataset.image;
-  isMatch ? disableCards() : unflipCards();
+  if (isMatch) {
+    disableCards();
+    return;
+  }
+  unflipCards();
 }
 
 function disableCards() {
