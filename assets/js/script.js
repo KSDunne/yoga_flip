@@ -13,9 +13,6 @@ let moves3 = 0;
 // retrieve score element for scoreboard
 const scoreEl = document.getElementById("score");
 
-// retrieve best score element for scoreboard
-const bestScoreEl = document.getElementById("best-score");
-
 // start with an empty scores arrays
 let bestScores = [];
 let myObj2 = {};
