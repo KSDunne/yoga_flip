@@ -36,6 +36,7 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 - Make the game responsive on multiple screen sizes
 - Use a defensive design
 - Show the user is making progress when they play the game a couple of times, through the use of local storage
+- Create a real world aspect, by putting links to socials in the footer, because users might be interested in booking classes at an in-person yoga studio
 
 ### Target audience
 
