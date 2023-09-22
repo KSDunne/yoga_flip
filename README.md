@@ -320,6 +320,10 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### Accessibility and Lighthouse
 
+- A score of 100 was reached for accessibility and SEO. High green scores were reached for performance and best practices.
+
+![Index lighthouse](docs/lighthouse.PNG)
+
 ### Manual testing
 
 #### Responsiveness of features tested using Chrome DevTools
