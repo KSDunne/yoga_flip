@@ -442,7 +442,7 @@ main {
 
 .score-display-item {
   font-size: 90%;
-  padding: 5px 4px 8px 4px;
+  padding: 5px 8px 8px 8px;
   line-height: 25px;
 }
 
@@ -643,7 +643,7 @@ footer {
 
   .score-display-item {
     font-size: 90%;
-    padding: 10px 6px 12px 6px;
+    padding: 10px 8px 12px 8px;
     line-height: 25px;
   }
 
