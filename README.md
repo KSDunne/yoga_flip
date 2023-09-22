@@ -314,6 +314,10 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### JS Hint
 
+- No errors or warnings were returned on JSHint.
+
+![JavaScript validation](docs/js_validation.PNG)
+
 ### Accessibility and Lighthouse
 
 ### Manual testing
