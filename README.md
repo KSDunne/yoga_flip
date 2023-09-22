@@ -284,6 +284,7 @@ The structure of the grid part of the game stayed the same from the inception of
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
 - [Visual Studio Code IDE](https://code.visualstudio.com/)
+- [Prettier Code Formatter](https://prettier.io/)
 - [Balsamiq](https://balsamiq.com/wireframes/)
 - [Favicon](https://favicon.io/favicon-generator/#google_vignette)
 - [Venngage's Accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator)
