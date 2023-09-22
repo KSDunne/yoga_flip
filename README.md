@@ -314,7 +314,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### JS Hint
 
-- No errors or warnings were returned on JSHint.
+- No errors or warnings were returned on JSHint. It states 1 unused variable on line 281, however this is not unused. It is called in the index.html file using onclick.
 
 ![JavaScript validation](docs/js_validation.PNG)
 
