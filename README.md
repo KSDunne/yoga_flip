@@ -308,6 +308,8 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### CSS validation
 
+- No errors found using Jigsaw CSS validator. See [CSS Test](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fksdunne.github.io%2Fyoga_flip%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ![CSS validation](docs/css_validation.PNG)
 
 #### JS Hint
