@@ -200,7 +200,7 @@ The win page has a similar animation to the time out page but it appears when th
 - A video that demonstrates yoga poses
 - Fun sounds when the cards are flipped
 - Fun sounds when the cards are matched
-- Music playing while you play the game 
+- Music playing while you play the game
 - Sounds that have the option to be turned on or off by the user, so the control of the sounds is in the hands of the user
 
 ## Design
@@ -213,17 +213,17 @@ Google Fonts were used to import Poppins and Oxygen fonts into styles.css. A san
 
 ### Color
 
-Since the theme for this game is energising Vinyasa yoga I chose bright colors that give the user an energetic feeling. I also kept accessibility in mind when choosing colors and I used a color blind friendly palette for inspiration. Colors were adapted from palettes generated using [Venngage's accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator).
+The theme for this game is energising Vinyasa yoga. Bright colors were chosen, that give the user an energetic feeling. Accessibility was also kept in mind when choosing colors. Color blind friendly palettes were used for inspiration. Colors were adapted from palettes generated using [Venngage's accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator).
 
 #### Primary accessible color palette
 
-The main colors I am taking from the primary color palette are: White / Purple / Yellow
+The primary colors for this page are: White / Purple / Yellow / Green. The purple color, #D47CFA, was chosen from the palette below. The palette below also shows that green is an accessible contrast to purple.
 
 ![Primary accessible color palette](docs/primary_accessible_colors.webp)
 
 #### Secondary accessible color palette
 
-The main color I am taking from the secondary color palette is: Pink
+The pink color on the palette below was also used as inspiration when picking the back side image of the cards.
 
 ![Secondary accessible color palette](docs/secondary_accessible_colors.webp)
 
