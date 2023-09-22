@@ -229,6 +229,8 @@ The pink color on the palette below was also used as inspiration when picking th
 
 ## Wireframes
 
+The structure of the grid part of the game stayed the same from the inception of the first wireframes. However, due to this being a JavaScript project, features were continually added after mentor discussions. Therefore, the wireframes kept evolving during this project. This was in contrast to the first Code Institute project where the finished website was very much in line with the first set of wireframes.
+
 ### Index page wireframes
 
 ![Index iPhone SE](docs/wireframes/iphone_index.png)
