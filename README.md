@@ -302,7 +302,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### HTML validation
 
-- No errors or warnings returned on index.html when the official W3C validator was used. There were info messages that were concerned with the trailing slash on self closing tags. This is due to using the prettier extension in VS Code. From reading the following resource, it was concluded the info messages can be safely ignored in this instance. See [link to resource](https://github.com/prettier/prettier/issues/5641). See the [Index Page Test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fksdunne.github.io%2Fyoga_flip%2F)
+- No errors or warnings returned on index.html when the official W3C validator was used. There were info messages that were concerned with the trailing slash on self closing tags. This is due to using the prettier extension in VS Code. From reading the following resource, it was concluded the info messages can be safely ignored in this instance. They can be ignored because all of the attributes in this project are quoted. See [link to resource](https://github.com/prettier/prettier/issues/5641). See the [Index Page Test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fksdunne.github.io%2Fyoga_flip%2F)
 
 ![Index HTML validation](docs/index_html_validation.PNG)
 
