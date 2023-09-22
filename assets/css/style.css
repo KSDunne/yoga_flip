@@ -152,6 +152,7 @@ main {
   color: #2a2a2a;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  height: 45px;
 }
 
 .rules-area {
