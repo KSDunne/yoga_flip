@@ -193,14 +193,15 @@ The win page has a similar animation to the time out page but it appears when th
 
 ## Future Features
 
-- An option to input a username
-- A limited number of tries before the game is over
 - A 404 page
-- A video with the yoga moves beside the game with responsive design to take up the screen real estate on monitor
+- An option to input a username
+- Multiple levels of difficulty, where there are more tiles in the grid or a shorter countdown time (e.g. easy, medium or hard levels)
+- A scoreboard that displays the last 10 scores
+- A video that demonstrates yoga poses
 - Fun sounds when the cards are flipped
 - Fun sounds when the cards are matched
-- A fun sound when you finish the game
-- Music playing while you play the game
+- Music playing while you play the game 
+- Sounds that have the option to be turned on or off by the user, so the control of the sounds is in the hands of the user
 
 ## Design
 
