@@ -217,7 +217,7 @@ The theme for this game is energising Vinyasa yoga. Bright colors were chosen, t
 
 #### Primary accessible color palette
 
-The primary colors for this page are: White / Purple / Yellow / Green. The purple color, #D47CFA, was chosen from the palette below. The palette below also shows that green is an accessible contrast to purple.
+The primary colors for this page are: White / Yellow / Purple / Green. The purple color, #D47CFA, was chosen from the palette below. The palette below also shows that green is an accessible contrast to purple.
 
 ![Primary accessible color palette](docs/primary_accessible_colors.webp)
 
@@ -300,6 +300,8 @@ The structure of the grid part of the game stayed the same from the inception of
 ### Code validation
 
 #### HTML validation
+
+- No errors returned on index.html when the official W3C validator was used. See the Index Page Test.
 
 #### CSS validation
 
