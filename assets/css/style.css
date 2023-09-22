@@ -440,7 +440,7 @@ main {
 }
 
 .score-display-item {
-  font-size: 98%;
+  font-size: 92%;
   padding: 5px 4px 8px 4px;
   line-height: 25px;
 }
@@ -452,7 +452,7 @@ main {
 
 .improved {
   padding: 2px 0px 18px 0px;
-  font-size: 116%;
+  font-size: 112%;
 }
 
 /* end of scoreboard area */
@@ -640,7 +640,7 @@ footer {
   }
 
   .score-display-item {
-    font-size: 98%;
+    font-size: 92%;
     padding: 10px 6px 12px 6px;
     line-height: 25px;
   }
@@ -656,7 +656,7 @@ footer {
 
   .improved {
     padding: 6px 0px 26px 0px;
-    font-size: 116%;
+    font-size: 112%;
   }
 
   .rules-modal-card {
@@ -733,7 +733,7 @@ footer {
   }
 
   .score-display-item {
-    font-size: 102%;
+    font-size: 96%;
     padding: 10px 6px 12px 6px;
     line-height: 25px;
   }
@@ -749,7 +749,7 @@ footer {
 
   .improved {
     padding: 6px 0px 26px 0px;
-    font-size: 118%;
+    font-size: 114%;
   }
 
   .rules-modal-card {
@@ -834,7 +834,7 @@ footer {
   }
 
   .score-display-item {
-    font-size: 102%;
+    font-size: 96%;
     padding: 10px 6px 12px 6px;
     line-height: 25px;
   }
@@ -850,7 +850,7 @@ footer {
 
   .improved {
     padding: 6px 0px 26px 0px;
-    font-size: 118%;
+    font-size: 114%;
   }
 
   .rules-modal-card {
