@@ -419,7 +419,7 @@ main {
   background-color: #4d3b71;
   color: #ffef0a;
   border-radius: 14px;
-  width: 64%;
+  width: 68%;
   box-shadow: 0.2rem 0.2rem #0fff50;
 }
 
@@ -434,10 +434,10 @@ main {
 .score-heading {
   font-family: "Oxygen", sans-serif;
   margin-top: 5px;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 4px 10px 4px;
   color: #ffef0a;
   font-weight: bolder;
-  font-size: 132%;
+  font-size: 126%;
 }
 
 .score-display-item {
@@ -637,7 +637,7 @@ footer {
     background-color: #4d3b71;
     color: #ffef0a;
     border-radius: 14px;
-    width: 62%;
+    width: 68%;
     box-shadow: 0.2rem 0.2rem #0fff50;
   }
 
@@ -650,10 +650,10 @@ footer {
   .score-heading {
     font-family: "Oxygen", sans-serif;
     margin-top: 5px;
-    padding: 18px 0px 10px 0px;
+    padding: 18px 5px 10px 5px;
     color: #ffef0a;
     font-weight: bolder;
-    font-size: 132%;
+    font-size: 126%;
   }
 
   .improved {
@@ -730,7 +730,7 @@ footer {
     background-color: #4d3b71;
     color: #ffef0a;
     border-radius: 14px;
-    width: 62%;
+    width: 68%;
     box-shadow: 0.2rem 0.2rem #0fff50;
   }
 
@@ -743,10 +743,10 @@ footer {
   .score-heading {
     font-family: "Oxygen", sans-serif;
     margin-top: 5px;
-    padding: 18px 0px 10px 0px;
+    padding: 18px 5px 10px 5px;
     color: #ffef0a;
     font-weight: bolder;
-    font-size: 132%;
+    font-size: 128%;
   }
 
   .improved {
@@ -831,7 +831,7 @@ footer {
     background-color: #4d3b71;
     color: #ffef0a;
     border-radius: 14px;
-    width: 64%;
+    width: 68%;
     box-shadow: 0.2rem 0.2rem #0fff50;
   }
 
@@ -844,10 +844,10 @@ footer {
   .score-heading {
     font-family: "Oxygen", sans-serif;
     margin-top: 5px;
-    padding: 18px 0px 10px 0px;
+    padding: 18px 5px 10px 5px;
     color: #ffef0a;
     font-weight: bolder;
-    font-size: 138%;
+    font-size: 128%;
   }
 
   .improved {
