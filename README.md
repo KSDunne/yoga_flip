@@ -291,10 +291,9 @@ The structure of the grid part of the game stayed the same from the inception of
 - [Font Awesome](https://fontawesome.com/)
 - [W3C Markup Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-- [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+- [JSHint](https://jshint.com/)
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-- [Google Maps](https://www.google.com/maps)
-- [YouTube](https://www.youtube.com/)
+- [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
 
 ## Testing
 
