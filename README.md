@@ -217,13 +217,13 @@ The theme for this game is energising Vinyasa yoga. Bright colors were chosen, t
 
 #### Primary accessible color palette
 
-The primary colors for this page are: White / Yellow / Purple / Green. The purple color, #D47CFA, was chosen from the palette below. The palette below also shows that green is an accessible contrast to purple.
+The primary colors for this page are: Purple / Green / Yellow. The purple color, #D47CFA, was chosen from the palette below. The palette below also shows that green is an accessible contrast to purple.
 
 ![Primary accessible color palette](docs/primary_accessible_colors.webp)
 
 #### Secondary accessible color palette
 
-The pink color on the palette below was also used as inspiration when picking the back side image of the cards.
+The pink color on the palette below was used as inspiration when picking the back side image of the cards. The dark purple was used as inspiration for the background color of the compare board. I couldn't use that exact purple as it needed to be even darker for high contrast.
 
 ![Secondary accessible color palette](docs/secondary_accessible_colors.webp)
 
