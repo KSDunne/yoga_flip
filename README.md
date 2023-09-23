@@ -401,12 +401,6 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### Supported screens and browsers
 
-- Chrome
-- Firefox
-- Microsoft Edge
-- Safari
-- Opera
-
 #### Screens
 
 - iPhone SE, 375px wide
@@ -417,8 +411,8 @@ The structure of the grid part of the game stayed the same from the inception of
 #### Browsers
 
 - Chrome
-- Edge
 - Firefox
+- Microsoft Edge
 - Safari
 - Opera
 
