@@ -364,7 +364,17 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### Testing all links on the site
 
-### Feature testing table
+|   | Clickable link            | What does it do?                                       | Does it work as expected? |
+| - | ------------------------- | ------------------------------------------------------ | ------------------------- |
+| 1 | facebook                  | external link to social media page, opens on a new tab | as expected               |
+| 2 | twitter                   | external link to social media page, opens on a new tab | as expected               |
+| 3 | instagram                 | external link to social media page, opens on a new tab | as expected               |
+| 4 | youtube                   | external link to social media page, opens on a new tab | as expected               |
+| 5 | github link for portfolio | external link, opens on a new tab                      | as expected               |
+
+#### Feature testing table
+
+
 
 ### User story testing
 
