@@ -801,6 +801,13 @@ footer {
   .win-page-game-title {
     padding: 8% 0% 2% 0%;
   }
+
+  .footer-logo {
+    max-width: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 8% 6% 6% 6%;
+  }
 }
 
 /* very large devices (large laptop screens and monitors, 1440px and up) */
@@ -902,5 +909,12 @@ footer {
   .timer-end-game-title,
   .win-page-game-title {
     padding: 6% 0% 2% 0%;
+  }
+
+  .footer-logo {
+    max-width: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 7% 6% 6% 6%;
   }
 }
