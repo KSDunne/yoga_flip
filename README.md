@@ -418,7 +418,7 @@ The structure of the grid part of the game stayed the same from the inception of
 - iPhone SE, 375px wide
 - iPad Mini, 768px wide
 - Nest Hub Max, 1280px wide
-- All features looks good down to 300px according to devtools
+- All features look good down to 300px according to devtools
 
 #### Browsers
 
@@ -451,21 +451,27 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### Code
 
-Love Maths
+[Love Maths Code Institute Walk Through](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master) -
 
-[Grid Game Medium Tutorial](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/)
+[Grid Game Medium Tutorial](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/) -
 
-[CI Student Memory Card Game 1](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master)
+[Countdown Timer Tutorial](https://github.com/adipurdila/countdown-timer/tree/main) -
 
-[CI Student Memory Card Game 2](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game)
+[CI Student Memory Card Game With Alien Theme](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) -
+
+[CI Student Memory Card Game With One Punch Man Theme](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game) -
+
+### Inspiration for structure from other CI students
+
+[CI Student Memory Card Game With Harry Potter Theme](https://github.com/Gersondelacruzdeveloper/Milestone-Project2) -
+
+[CI Student Memory Card Game With City Theme](https://github.com/Marcroth0/memory-game) -
 
 ### Media
 
 ### Inspiration from other memory game websites
 
 ### Inspiration from other yoga websites
-
-### Inspiration for structure from other CI students
 
 ## Acknowledgements
 
