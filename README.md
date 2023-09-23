@@ -402,7 +402,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ![compare board before fix](docs/scoreboard_color_light_purple.PNG)
 
-#### Background bug on time out page after the fix is shown in the screenshot below
+#### Dark purple color of compare board after the fix
 
 ![compare board after fix](docs/scoreboard_color_dark_purple.PNG)
 
