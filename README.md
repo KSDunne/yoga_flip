@@ -394,6 +394,18 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ![time out page after fix](docs/time_out_page_bug_fixed.PNG)
 
+#### A light purple color on the compare board background caused the accessibility score to drop in lighthouse due to contrast with text
+
+- During testing with lighthouse the accessibility score was initially 95, this was because the compare board contrast of colors between the background and text was failing for accessibility. This was fixed by adding a darker purple color to the background. The accessibility score went up to 100 when the fix was implemented.
+
+#### Light purple color of compare board prior to fix
+
+![compare board before fix](docs/scoreboard_color_light_purple.PNG)
+
+#### Background bug on time out page after the fix is shown in the screenshot below
+
+![compare board after fix](docs/scoreboard_color_dark_purple.PNG)
+
 ### Unfixed bugs
 
 - No unfixed bugs
