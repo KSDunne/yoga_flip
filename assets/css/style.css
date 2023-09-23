@@ -488,6 +488,10 @@ footer {
   font-weight: bold;
 }
 
+.footer-logo-div {
+  width: 12%;
+}
+
 /* credit for socials code: whisper rs portfolio project 1*/
 .socials {
   text-align: center;
@@ -508,7 +512,7 @@ footer {
   max-width: 3rem;
   display: flex;
   justify-content: center;
-  padding: 25% 15% 0% 15%;
+  padding: 10% 8% 8% 8%;
 }
 
 .git-hub-div {
