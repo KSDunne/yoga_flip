@@ -530,11 +530,11 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### Media
 
-[Background Image](https://www.shutterstock.com/image-photo/milky-way-tree-silhouette-sitting-woman-576614641)
+- The background image is from [shutterstock](https://www.shutterstock.com/image-photo/milky-way-tree-silhouette-sitting-woman-576614641)
 
-[Image for the back of the cards](https://pixabay.com/illustrations/meditation-spiritual-yoga-1384758/)
+- The yoga images on the cards are from [shutterstock](https://www.shutterstock.com/image-photo/sport-concept-beautiful-slim-woman-different-326069972)
 
-[Card Yoga Images](https://www.shutterstock.com/image-photo/sport-concept-beautiful-slim-woman-different-326069972)
+- The pink meditation image used on the back of the cards is from [pixabay](https://pixabay.com/illustrations/meditation-spiritual-yoga-1384758/)
 
 ## Acknowledgements
 
