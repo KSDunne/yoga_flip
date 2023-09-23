@@ -473,7 +473,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 [Generic Memory Card Theme](https://www.memozor.com/memory-games/for-kids/dinosaurs-2)
 
-### Inspiration from other yoga websites
+### Inspiration from yoga websites
 
 [Mandala Yoga](https://mandalayoga.ie/)
 
