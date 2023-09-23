@@ -396,7 +396,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### A light purple color on the compare board background caused the accessibility score to drop in lighthouse due to contrast with text
 
-- During testing with lighthouse the accessibility score was initially 95, this was because the compare board contrast of colors between the background and text was failing for accessibility. This was fixed by adding a darker purple color to the background. The accessibility score went up to 100 when the fix was implemented.
+- During testing with lighthouse the accessibility score was initially 95, this was because the compare board contrast of colors between the background and text was failing for accessibility. This was fixed by adding a darker purple color to the background and increasing the font size. The accessibility score went up to 100 when the fix was implemented.
 
 #### Light purple color of compare board prior to fix
 
