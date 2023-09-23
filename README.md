@@ -479,7 +479,15 @@ The structure of the grid part of the game stayed the same from the inception of
 
 [Benefits of Vinyasa Yoga](https://www.lucilehr.com/blog/vinyasa-yoga-benefits#What_is_vinyasa_yoga?)
 
+[Yoga Ireland](https://www.yogaireland.ie/)
+
 ### Media
+
+[Background Image](https://www.shutterstock.com/image-photo/milky-way-tree-silhouette-sitting-woman-576614641)
+
+[Image for the back of the cards](https://pixabay.com/illustrations/meditation-spiritual-yoga-1384758/)
+
+[Card Yoga Images](https://www.shutterstock.com/image-photo/sport-concept-beautiful-slim-woman-different-326069972)
 
 ## Acknowledgements
 
