@@ -1,6 +1,8 @@
 // script.js
 // Note: A defensive design was built into this project in the reset button
 
+// there are 3 different move counter containers separate to the compare board, these are; at the top of the grid, on the time out page, and on the win page
+// retrieve these move elements so that they can change while the game is played
 const moveContainer = document.getElementById("moves");
 let moves = 0;
 
@@ -10,7 +12,7 @@ let moves2 = 0;
 const moveContainer3 = document.getElementById("moves3");
 let moves3 = 0;
 
-// retrieve score element for scoreboard
+// retrieve score element for scoreboard / compare-board
 const scoreEl = document.getElementById("score");
 
 // start with an empty scores arrays
@@ -100,7 +102,7 @@ function unflipCards() {
     resetBoard();
   }, 1300);
 
-  // call 'add move' on both the game screen, and time out screen so that it shows how many moves you made when you time out
+  // call 'add move' on the game screen, and time out screen so that it shows how many moves you made when you time out, and the win page
   addMove();
   addMove2();
   addMove3();
@@ -112,7 +114,7 @@ function unflipCards() {
 // credit for move counter code: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master
 /*
 note on move counter code adaptation: get element by id was used here in yoga flip, whereas the alien memory game used query selector, 
-I also displayed the move counter on the time out page and win page
+I also displayed the move counter on 3 different "pages". It is displayed on the main game page, the time out page and the win page.
 */
 
 // move counter
@@ -159,6 +161,11 @@ memory_cards.forEach((card) => card.addEventListener("click", flipCard));
 
 // start of countdown timer logic
 // credit of code adapted for my own use: https://github.com/adipurdila/countdown-timer/tree/main
+/*
+note on timer code adaptation: the tutorial displayed days, hours, minutes and seconds. 
+I customised that code for my own use to display just minutes and seconds.
+I also display the timer on 3 different "pages". The timer is displayed on the main page, the time out page and the win page.
+*/
 let timerInterval;
 const minutesElement = document.querySelector(".minutes"),
   secondsElement = document.querySelector(".seconds"),
