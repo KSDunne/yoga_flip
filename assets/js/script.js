@@ -341,7 +341,7 @@ function calcScore() {
 
 // a new array saves to local storage everytime the move number goes up
 // credit, code was adapted from the following tutorial: https://www.youtube.com/watch?v=2hJ1rTANVnk&t=220s
-// credit, the use of set item and get item is explained here: https://www.w3schools.com/jsref/prop_win_localstorage.asp
+// credit, the syntax of setItem and getItem is explained here: https://www.w3schools.com/jsref/prop_win_localstorage.asp
 
 function saveScores() {
   var new_data = Math.max(...bestScores);
