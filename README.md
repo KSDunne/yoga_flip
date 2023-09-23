@@ -494,17 +494,17 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### Code
 
-[Grid Game Medium Tutorial](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/) - main memory game logic an html code for the grid section area were adapted from this source
+[Grid Game Medium Tutorial](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/) - Main memory game logic and html code for the grid section area were adapted from this source
 
-[Countdown Timer Tutorial](https://github.com/adipurdila/countdown-timer/tree/main) - this tutorial used days, hours, minutes and seconds whereas I only used minutes and seconds. I also displayed the timer in multiple places, such as; above the main game, on the time out page and on the win page.
+[Countdown Timer Tutorial](https://github.com/adipurdila/countdown-timer/tree/main) - This tutorial used days, hours, minutes and seconds for their countdown timer, whereas I only used minutes and seconds. I also displayed the timer in multiple places, such as; above the main game, on the time out page and on the win page
 
-[Local Storage Tutorual](https://www.youtube.com/watch?v=2hJ1rTANVnk&t=220s) - I adapted code from this tutorial to display a maximum of moves in yoga flip
+[Local Storage Tutorual](https://www.youtube.com/watch?v=2hJ1rTANVnk&t=220s) - I adapted code from this tutorial to display a maximum of previous move numbers in yoga flip
 
 [W3Schools Local Storage Code](https://www.w3schools.com/jsref/prop_win_localstorage.asp) - I got the syntax for local storage code here, in particular for setItem and getItem
 
-[CI Student Memory Card Game With Alien Theme](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) - code was adapted from this source for the following features, timer start onclick of flipcard function, rules modal and reset modal
+[CI Student Memory Card Game With Alien Theme](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) - Code was adapted from this source for the following features, timer start onclick of flipcard function, rules modal and reset modal
 
-[CI Student Memory Card Game With One Punch Man Theme](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game) - grid section html and scoreboard styling were adapted from this source
+[CI Student Memory Card Game With One Punch Man Theme](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game) - Grid section html and scoreboard styling were adapted from this source
 
 ### Inspiration for structure from CI walk through and other CI students
 
