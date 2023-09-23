@@ -368,7 +368,17 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### Fixed bugs
 
-- Height was specified in header style and the content then spilled over to the next element. This was fixed by removing the specific height and then the header height just changed automatically to fit the content which was much better.
+- Height was specified in header style and the content then spilled over to the next element. This was fixed by removing the specific height and then the header height just changed automatically to fit the content which was much better
+
+- During manual testing it was noticed on edge, firefox and opera that the logo didn't have the intended responsiveness. This was fixed by adding a class that was specific to the footer logo div and giving it a width with a percentage unit. So that the logo div would take up a set percentage of the width of the footer on all screens. See screen shots below for the illustration of this
+
+#### Footer logo bug pre the fix, is shown in the following screen shot
+
+![footer logo bug unfixed](docs/footer_logo_bug_unfixed.PNG)
+
+#### Footer logo bug after the fix, is shown in the following screen shot
+
+![footer logo bug fixed](docs/footer_logo_bug_fixed.PNG)
 
 ### Unfixed bugs
 
