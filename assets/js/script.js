@@ -1,13 +1,13 @@
 // script.js
 // Note: A defensive design was built into this project in the reset button
 
-const moveContainer = document.querySelector(".moves");
+const moveContainer = document.getElementById("moves");
 let moves = 0;
 
-const moveContainer2 = document.querySelector(".moves2");
+const moveContainer2 = document.getElementById("moves2");
 let moves2 = 0;
 
-const moveContainer3 = document.querySelector(".moves3");
+const moveContainer3 = document.getElementById("moves3");
 let moves3 = 0;
 
 // retrieve score element for scoreboard
@@ -18,9 +18,6 @@ let bestScores = [];
 let myObj2 = {};
 let myScoreArray = [];
 let nums = [];
-
-//leaving local storage clear here, commented out, because it is useful in some development senarios with the scoreboard
-//localStorage.clear();
 
 // adding seconds to current date for countdown */
 let countdownDate = new Date().setSeconds(new Date().getSeconds() + 100);
@@ -160,9 +157,9 @@ memory_cards.forEach((card) => card.addEventListener("click", flipCard));
 let timerInterval;
 const minutesElement = document.querySelector(".minutes"),
   secondsElement = document.querySelector(".seconds"),
-  timerRunningContent = document.querySelector("#timer-running"),
-  timerEndContent = document.querySelector("#timer-end"),
-  winContent = document.querySelector("#win-page");
+  timerRunningContent = document.getElementById("timer-running"),
+  timerEndContent = document.getElementById("timer-end"),
+  winContent = document.getElementById("win-page");
 
 // template literals to format the time for whether it is singlular or multiples
 const formatTime = (time, string) => {
