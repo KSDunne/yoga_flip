@@ -475,6 +475,10 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### Inspiration from other yoga websites
 
+[Mandala Yoga](https://mandalayoga.ie/)
+
+[Benefits of Vinyasa Yoga](https://www.lucilehr.com/blog/vinyasa-yoga-benefits#What_is_vinyasa_yoga?)
+
 ### Media
 
 ## Acknowledgements
