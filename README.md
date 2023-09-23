@@ -432,7 +432,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
   The live link can be found here - [Yoga Flip](https://ksdunne.github.io/yoga_flip/)
 
-- It is possible to fork this repository using the following steps:
+### It is possible to fork this repository using the following steps:
 
 - Go to the GitHub repository
 - Click on the Fork button in the upper right-hand corner
