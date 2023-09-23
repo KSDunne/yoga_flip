@@ -388,9 +388,6 @@ The structure of the grid part of the game stayed the same from the inception of
 | 10 | win page                       | displays when 8 successful matches are made                                                      | a start over button can be clicked here                               |
 | 11 | local storage                  | increments when you played a game with the maximum amount of moves out of your own recent scores | shows the maximum amount of moves the user took in the last few games |
 | 12 | social media links             | the user can follow to find real yoga studios to continue their learning journey                 | all social links show the correct destination for clicks              |
-📋 Copy
-Clear
-
 
 ### User story testing
 
