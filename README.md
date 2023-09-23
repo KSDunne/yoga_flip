@@ -405,9 +405,10 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### Screens
 
-- iPhone SE, 375px wide. Also looks good down to 300px according to devtools
+- iPhone SE, 375px wide
 - iPad Mini, 768px wide
 - Nest Hub Max, 1280px wide
+- All features looks good down to 300px according to devtools
 
 #### Browsers
 
@@ -421,15 +422,20 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### How this site was deployed
 
-- In the GitHub repository, go to the Settings tab, then choose Pages from the left hand menu
+- Go to the settings tab in the GitHub respository and choose Pages from the left hand menu
 - Make sure that source is set to 'Deploy from Branch'
 - Main branch needs to be selected and folder should be set to root
 - Under branch, click save
 - Revisit the code tab and wait a few minutes for the build to finish, then refresh your repository
-- There will be an option to click on 'github-pages', on the right hand side, in the environments section
-- Click on 'view deployment' to see the live site.
+- There will be an option to click on 'github-pages' on the right hand side, in the environments section
+- Click on 'view deployment' to see the live site
 
-  The live link can be found here -
+  The live link can be found here - [Yoga Flip](https://ksdunne.github.io/yoga_flip/)
+
+- It is possible to fork this repository by the following these steps:
+
+- Go to the GitHub repository
+- Click on the Fork button in the upper right-hand corner
 
 ## Credits
 
