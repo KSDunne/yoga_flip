@@ -219,13 +219,13 @@ function clearPoseName() {
 // start of logic for rules modal
 // credit for rules modal logic: https://www.w3schools.com/howto/howto_css_modals.asp
 
-// get the modal
+// get the modal by id
 var modal = document.getElementById("rules-modal-id");
 
 // get the button that opens the modal
 var button = document.getElementById("rules-btn-id");
 
-// get the element that closes the modal
+// get the button that closes the modal
 var closebtn = document.getElementsByClassName("close-rules-button")[0];
 
 // when the user clicks on the button, open the modal
@@ -233,7 +233,7 @@ button.onclick = function () {
   modal.style.display = "flex";
 };
 
-// when the user clicks on closebtn, close the modal
+// when the user clicks on play button, close the modal
 closebtn.onclick = function () {
   modal.style.display = "none";
 };
