@@ -108,7 +108,7 @@ function unflipCards() {
   addMove3();
   calcScore();
   saveScores();
-  view();
+  viewLocalScores();
 }
 
 // credit for move counter code: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master
@@ -354,7 +354,7 @@ function saveScores() {
   localStorage.setItem("data", JSON.stringify(old_data));
 }
 
-function view() {
+function viewLocalScores() {
   myObj2 = { data: JSON.parse(localStorage.getItem("data")) };
   myScoreArray = myObj2.data;
 
