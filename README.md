@@ -364,30 +364,30 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### Testing all links on the site
 
-|   | Clickable link            | What does it do?                                       | Does it work as expected? |
-| - | ------------------------- | ------------------------------------------------------ | ------------------------- |
-| 1 | facebook                  | external link to social media page, opens on a new tab | as expected               |
-| 2 | twitter                   | external link to social media page, opens on a new tab | as expected               |
-| 3 | instagram                 | external link to social media page, opens on a new tab | as expected               |
-| 4 | youtube                   | external link to social media page, opens on a new tab | as expected               |
-| 5 | github link for portfolio | external link, opens on a new tab                      | as expected               |
+|     | Clickable link            | What does it do?                                       | Does it work as expected? |
+| --- | ------------------------- | ------------------------------------------------------ | ------------------------- |
+| 1   | facebook                  | external link to social media page, opens on a new tab | as expected               |
+| 2   | twitter                   | external link to social media page, opens on a new tab | as expected               |
+| 3   | instagram                 | external link to social media page, opens on a new tab | as expected               |
+| 4   | youtube                   | external link to social media page, opens on a new tab | as expected               |
+| 5   | github link for portfolio | external link, opens on a new tab                      | as expected               |
 
 #### Feature testing table
 
-|    | feature                        | action                                                                                           | effect                                                                |
-| -- | ------------------------------ | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
-| 1  | moves counter                  | increments by 1 after every failed attempt                                                       | increments accordingly while playing the game                         |
-| 2  | countdown timer                | starts when the first card is flipped                                                            | counts down to zero then an animation happens                         |
-| 3  | 16 cards that flip as intended | flip when clicked                                                                                | disable when matched and flip back over when unmatched                |
-| 4  | pose name box under grid       | when the user flips 2 cards the content in the box changes                                       | the content changes to either not matched or the pose name            |
-| 5  | rules button                   | has pointer cursor when hovered over                                                             | opens a modal with a list of rules in it                              |
-| 6  | rules modal                    | pops up on click                                                                                 | can be closed via a play button or clicking out side it               |
-| 7  | reset current game button      | has pointer cursor when hovered over                                                             | opens a modal with options to continue playing or reset               |
-| 8  | reset defensive modal          | pops up on click                                                                                 | can be closed via buttons or clicking out side it                     |
-| 9  | time out page                  | displays when time reaches zero                                                                  | a start over button can be clicked here                               |
-| 10 | win page                       | displays when 8 successful matches are made                                                      | a start over button can be clicked here                               |
-| 11 | local storage                  | increments when you played a game with the maximum amount of moves out of your own recent scores | shows the maximum amount of moves the user took in the last few games |
-| 12 | social media links             | the user can follow to find real yoga studios to continue their learning journey                 | all social links show the correct destination for clicks              |
+|     | feature                        | action                                                                                           | effect                                                                |
+| --- | ------------------------------ | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| 1   | moves counter                  | increments by 1 after every failed attempt                                                       | increments accordingly while playing the game                         |
+| 2   | countdown timer                | starts when the first card is flipped                                                            | counts down to zero then an animation happens                         |
+| 3   | 16 cards that flip as intended | flip when clicked                                                                                | disable when matched and flip back over when unmatched                |
+| 4   | pose name box under grid       | when the user flips 2 cards the content in the box changes                                       | the content changes to either not matched or the pose name            |
+| 5   | rules button                   | has pointer cursor when hovered over                                                             | opens a modal with a list of rules in it                              |
+| 6   | rules modal                    | pops up on click                                                                                 | can be closed via a play button or clicking out side it               |
+| 7   | reset current game button      | has pointer cursor when hovered over                                                             | opens a modal with options to continue playing or reset               |
+| 8   | reset defensive modal          | pops up on click                                                                                 | can be closed via buttons or clicking out side it                     |
+| 9   | time out page                  | displays when time reaches zero                                                                  | a start over button can be clicked here                               |
+| 10  | win page                       | displays when 8 successful matches are made                                                      | a start over button can be clicked here                               |
+| 11  | local storage                  | increments when you played a game with the maximum amount of moves out of your own recent scores | shows the maximum amount of moves the user took in the last few games |
+| 12  | social media links             | the user can follow to find real yoga studios to continue their learning journey                 | all social links show the correct destination for clicks              |
 
 ### User story testing
 
@@ -499,6 +499,10 @@ The structure of the grid part of the game stayed the same from the inception of
 [Grid Game Medium Tutorial](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/) -
 
 [Countdown Timer Tutorial](https://github.com/adipurdila/countdown-timer/tree/main) -
+
+[Local Storage Tutorual](https://www.youtube.com/watch?v=2hJ1rTANVnk&t=220s) -
+
+[W3Schools Local Storage Code](https://www.w3schools.com/jsref/prop_win_localstorage.asp) -
 
 [CI Student Memory Card Game With Alien Theme](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) -
 
