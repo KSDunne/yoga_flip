@@ -370,7 +370,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 - Height was specified in header style and the content then spilled over to the next element. This was fixed by removing the specific height and then the header height just changed automatically to fit the content which was much better
 
-#### Footer logo bug
+#### How the footer logo bug was fixed
 
 - During manual testing it was noticed on edge, firefox and opera that the logo didn't have the intended responsiveness. This was fixed by adding a class that was specific to the footer logo div and giving it a width with a percentage unit. So that the logo div would take up a set percentage of the width of the footer on all screens. See screen shots below for the illustration of this
 
@@ -382,7 +382,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ![footer logo bug fixed](docs/footer_logo_bug_fixed.PNG)
 
-#### Background responsiveness bug on 'time out page' and 'win page'
+#### How the background responsiveness bug on 'time out page' and 'win page' were fixed
 
 - During manual testing it was noticed that the backgrounds of the 'time out page' and the 'win page' were not responsive. There was a large white space showing at the bottom of the page. This could be due to the timer end and win page are hidden divs that are changed to flex display at certain events. If further time allowed, this bug would be further investigated, however a fix was to increase the height to greater than 100 vh. This fix worked and gave a nice effect in the end.
 
