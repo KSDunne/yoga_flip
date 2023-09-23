@@ -77,7 +77,7 @@ As a site visitor,
 - I will be able to click a "reset" button at any time during the game
 - I will make use of the defensive design in the reset button by confirming what I would like to do, whether that is continue playing the game I was playing or reset all cards, timer and current moves
 - I will be able to see links in the footer to social media, where I can search for yoga studios if I would like to do that. This will encourage me to contact a local yoga studio for in-person lessons
-- I will get feeback when the countdown timer reaches zero and I will get feed back when I win a game. Both of these feedback mechanisms will be animations
+- I will get feedback when the countdown timer reaches zero and I will get feedback when I win a game. Both of these feedback mechanisms will be animations
 - I can see the max amount of moves I made in the last few times I played the game through local storage and I can compare this number to my current move number
 - Overall, the value I get from this site is; I have fun, I am challenged by the countdown timer, I learn the names of the yoga poses and I can also find ways to contact an in-person yoga studio
 
@@ -105,7 +105,7 @@ There is a countdown timer feature on this game. The timer only starts once the 
 
 #### Grid of 16 cards
 
-There are 16 cards in a grid to form a memory game with a yoga theme. The picture that was chosen for the back of the cards represents meditation, which is often associated with yoga. The yoga pictures are of a real person. The idea of using cartoons was considered but the real person picture is more relatable, which will add to a feel-good emotion when playing the game. The real person picture is also educational as it is a demonstation of the yoga pose that the user could try themselves.
+There are 16 cards in a grid to form a memory game with a yoga theme. The picture that was chosen for the back of the cards represents meditation, which is often associated with yoga. The yoga pictures are of a real person. The idea of using cartoons was considered but the real person picture is more relatable, which will add to a feel-good emotion when playing the game. The real person picture is also educational as it is a demonstration of the yoga pose that the user could try themselves.
 
 ![Grid of 16 cards](docs/grid_of_cards.PNG)
 
@@ -137,7 +137,7 @@ The compare board has a heading with a font awesome icon. The icon represents a 
 
 #### Responsive footer with social links and logo
 
-The footer uses a flexbox display. Social media links are in the footer in case a user would like to find yoga studios for in-person classes. The logo is of a person in a typcal stretching movement. The logo was initially clickable, however after a while the click feature was considered a bad design. This is because it reset the cards, move count of current game and timer. Therefore, the click feature was taken off the logo to aid a more defensive design.
+The footer uses a flexbox display. Social media links are in the footer in case a user would like to find yoga studios for in-person classes. The logo is of a person in a typical stretching movement. The logo was initially clickable, however after a while the click feature was considered a bad design. This is because it reset the cards, move count of current game and timer. Therefore, the click feature was taken off the logo to aid a more defensive design.
 
 ![Responsive footer on a large screen](docs/responsive_footer_large_screen.PNG)
 
@@ -145,7 +145,7 @@ The footer uses a flexbox display. Social media links are in the footer in case 
 
 #### Attractive background that doesn't distract from the foreground
 
-The background image was chosen, because it has attractive colours that mesh with the overall theme. It shows a shadow of a person with their legs crossed in a typical yoga manner and a shadow of a tree. The background was initally a bit brighter than it is now, however after peer feedback it was blurred and darkened a bit, so that it does not distract from the foreground.
+The background image was chosen, because it has attractive colours that mesh with the overall theme. It shows a shadow of a person with their legs crossed in a typical yoga manner and a shadow of a tree. The background was initially a bit brighter than it is now, however after peer feedback it was blurred and darkened a bit, so that it does not distract from the foreground.
 
 ![Attractive background](docs/attractive_background.PNG)
 
@@ -405,7 +405,7 @@ The structure of the grid part of the game stayed the same from the inception of
 | I will be able to click a "reset" button at any time during the game                                                                                                                                   | This need has been met                                                                                                                                        |
 | I will make use of the defensive design in the reset button by confirming what I would like to do, whether that is continue playing the game I was playing or reset all cards, timer and current moves | Defensive design works as intended                                                                                                                            |
 | I will be able to see links in the footer to social media, where I can search for yoga studios if I would like to do that. This will encourage me to contact a local yoga studio for in-person lessons | All footer links have been tested and work                                                                                                                    |
-| I will get feeback when the countdown timer reaches zero and I will get feed back when I win a game. Both of these feedback mechanisms will be animations                                              | Both of these animations work                                                                                                                                 |
+| I will get feedback when the countdown timer reaches zero and I will get feedback when I win a game. Both of these feedback mechanisms will be animations                                              | Both of these animations work                                                                                                                                 |
 | I can see the max amount of moves I made in the last few times I played the game through local storage and I can compare this number to my current move number                                         | Local storage works as intended                                                                                                                               |
 | The value I get from this site is; I have fun, I am challenged by the countdown timer, I learn the names of the yoga poses and I can also find ways to contact an in-person yoga studio                | The site was deployed early and tested by peers, it was confirmed this is the value the user gets from this website                                           |
 
@@ -475,7 +475,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### How this site was deployed
 
-- Go to the settings tab in the GitHub respository and choose Pages from the left hand menu
+- Go to the settings tab in the GitHub repository and choose Pages from the left hand menu
 - Make sure that source is set to 'Deploy from Branch'
 - Main branch needs to be selected and folder should be set to root
 - Under branch, click save
@@ -498,7 +498,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 [Countdown Timer Tutorial](https://github.com/adipurdila/countdown-timer/tree/main) - This tutorial used days, hours, minutes and seconds for their countdown timer, whereas I only used minutes and seconds. I also displayed the timer in multiple places, such as; above the main game, on the time out page and on the win page
 
-[Local Storage Tutorual](https://www.youtube.com/watch?v=2hJ1rTANVnk&t=220s) - I adapted code from this tutorial to display a maximum of previous move numbers in yoga flip
+[Local Storage Tutorial](https://www.youtube.com/watch?v=2hJ1rTANVnk&t=220s) - I adapted code from this tutorial to display a maximum of previous move numbers in yoga flip
 
 [W3Schools Local Storage Code](https://www.w3schools.com/jsref/prop_win_localstorage.asp) - I got the syntax for local storage code here, in particular for setItem and getItem
 
@@ -510,9 +510,9 @@ The structure of the grid part of the game stayed the same from the inception of
 
 [Love Maths Code Institute Walk Through](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master)
 
-[CI Student Memory Card Game With Harry Potter Theme](https://github.com/Gersondelacruzdeveloper/Milestone-Project2) -
+[CI Student Memory Card Game With Harry Potter Theme](https://github.com/Gersondelacruzdeveloper/Milestone-Project2)
 
-[CI Student Memory Card Game With City Theme](https://github.com/Marcroth0/memory-game) -
+[CI Student Memory Card Game With City Theme](https://github.com/Marcroth0/memory-game)
 
 ### Inspiration from other memory game websites
 
