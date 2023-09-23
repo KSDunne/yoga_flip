@@ -63,21 +63,23 @@ Yoga Flip is a version of the classic card memory game. It provides value to a u
 
 ## User stories
 
-- As a site visitor, I am first assessing if this is an intuitive and eye-catching game that I would like to play
-- As a site visitor, I will initially see a grid style game with 16 cards
-- As a site visitor, I will initially be able to see the back-side of the cards
-- As a site visitor, I will see that the timer starts when I flip the first card
-- As a site visitor, I will be able to click two cards at a time. They will flip over and stay flipped over if I have matched them
-- As a site visitor, I will see that a move is logged when the second card is flipped
-- As a site visitor, I will see that the countdown timer stops once I finish matching all of the 16 cards on the grid
-- As a site visitor, I will be able to click a button that says "rules" and the rules of the game will pop up. This will pop up via a modal
-- As a site visitor, I will be able to close this modal whenever I want and return to where I was in the game
-- As a site visitor, I will be able to click a "reset" button at any time during the game
-- As a site visitor, I will make use of the defensive design in the reset button by confirming what I would like to do, whether that is continue playing the game I was playing or reset all cards, timer and current moves
-- As a site visitor, I will be able to see links in the footer to social media, where I can search for yoga studios if I would like to do that. This will encourage me to a local yoga studio for in-person lessons
-- As a site visitor, I will get feeback when the countdown timer reaches zero and I will get feed back when I win a game. Both of these feedback mechanisms will be animations
-- As a site visitor, I can see the max amount of moves I made in the last few times I played the game through local storage and I can compare this number to my current move number
-- Overall, as a site visitor, the value I get from this site is; I have fun, I am challenged by the countdown timer, I learn the names of the yoga poses and I can also find ways to contact an in-person yoga studio
+As a site visitor,
+
+- I am first assessing if this is an intuitive and eye-catching game that I would like to play
+- I will initially see a grid style game with 16 cards
+- I will initially be able to see the back-side of the cards
+- I will see that the timer starts when I flip the first card
+- I will be able to click two cards at a time. They will flip over and stay flipped over if I have matched them
+- I will see that a move is logged when the second card is flipped
+- I will see that the countdown timer stops once I finish matching all of the 16 cards on the grid
+- I will be able to click a button that says "rules" and the rules of the game will pop up. This will pop up via a modal
+- I will be able to close this modal whenever I want and return to where I was in the game
+- I will be able to click a "reset" button at any time during the game
+- I will make use of the defensive design in the reset button by confirming what I would like to do, whether that is continue playing the game I was playing or reset all cards, timer and current moves
+- I will be able to see links in the footer to social media, where I can search for yoga studios if I would like to do that. This will encourage me to contact a local yoga studio for in-person lessons
+- I will get feeback when the countdown timer reaches zero and I will get feed back when I win a game. Both of these feedback mechanisms will be animations
+- I can see the max amount of moves I made in the last few times I played the game through local storage and I can compare this number to my current move number
+- Overall, the value I get from this site is; I have fun, I am challenged by the countdown timer, I learn the names of the yoga poses and I can also find ways to contact an in-person yoga studio
 
 ## Features
 
