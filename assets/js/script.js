@@ -283,13 +283,13 @@ function reset() {
 // start of logic for 'are you sure you want to reset?' modal, which appears when the reset button on the main game page is clicked
 // credit for rules modal logic: https://www.w3schools.com/howto/howto_css_modals.asp
 
-// get the modal
+// get the modal by id
 var sureModal = document.getElementById("sure-modal-id");
 
-// get the button that opens the modal
+// getting the reset current game button that opens the modal
 var mainResetButton = document.getElementById("reset-button-main-page");
 
-// get the element that closes the modal
+// get the button that closes the modal
 var continueButton = document.getElementsByClassName(
   "continue-playing-button"
 )[0];
