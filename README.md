@@ -467,11 +467,15 @@ The structure of the grid part of the game stayed the same from the inception of
 
 [CI Student Memory Card Game With City Theme](https://github.com/Marcroth0/memory-game) -
 
-### Media
-
 ### Inspiration from other memory game websites
 
+[Dinosaur Themed Memory Card Game](https://www.memozor.com/memory-games/for-kids/dinosaurs-2)
+
+[Generic Memory Card Theme](https://www.memozor.com/memory-games/for-kids/dinosaurs-2)
+
 ### Inspiration from other yoga websites
+
+### Media
 
 ## Acknowledgements
 
