@@ -326,7 +326,32 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### Manual testing
 
-#### Responsiveness of features tested using Chrome DevTools
+#### Responsiveness was tested using Chrome DevTools
+
+- All features were tested for the intended responsiveness using Chrome DevTools on iPhone SE, 375px wide, iPad Mini, 768px wide and Nest Hub Max, 1280px wide
+
+- Responsiveness was also consistently tested down to 300px throughout development
+
+- At the end of development, all features passed responsiveness testing and looked good on all mentioned devices
+
+- See responsive feature testing results in the table below
+
+| responsiveness           | feature | responsiveness bugs |
+| ------------------------ | ------- | ------------------- |
+| game title h1            | pass    | na                  |
+| compare board            | pass    | na                  |
+| compare board text       | pass    | na                  |
+| footer                   | pass    | na                  |
+| rules modal card         | pass    | na                  |
+| rules modal list         | pass    | na                  |
+| rules modal button       | pass    | na                  |
+| are you sure card        | pass    | na                  |
+| are you sure question    | pass    | na                  |
+| are you sure buttons     | pass    | na                  |
+| time out page h1         | pass    | na                  |
+| time out page background | pass    | fixed with extra vh |
+| win page h1              | pass    | na                  |
+| win page background      | pass    | fixed with extra vh |
 
 #### Browser compatibility testing
 
