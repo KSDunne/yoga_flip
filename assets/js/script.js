@@ -107,7 +107,7 @@ function unflipCards() {
   addMove2();
   addMove3();
   calcScore();
-  save();
+  saveScores();
   view();
 }
 
@@ -343,7 +343,7 @@ function calcScore() {
 // credit, code was adapted from the following tutorial: https://www.youtube.com/watch?v=2hJ1rTANVnk&t=220s
 // credit, the use of set item and get item is explained here: https://www.w3schools.com/jsref/prop_win_localstorage.asp
 
-function save() {
+function saveScores() {
   var new_data = Math.max(...bestScores);
   if (localStorage.getItem("data") == null) {
     localStorage.setItem("data", "[]");
