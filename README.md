@@ -397,7 +397,7 @@ The structure of the grid part of the game stayed the same from the inception of
 ### Unfixed bugs
 
 - No unfixed bugs
-- However, I would call the 'background responsiveness bug fix', one that could be further improved upon in future work
+- However, I would call the 'background responsiveness bug fix' on time out page and win page, one that could be further improved upon in future work
 
 ### Supported screens and browsers
 
