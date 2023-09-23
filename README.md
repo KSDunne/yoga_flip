@@ -355,7 +355,10 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### Browser compatibility testing
 
-
+| browser compatibility   | chrome | edge                         | firefox                      | safari | opera                        |
+| ----------------------- | ------ | ---------------------------- | ---------------------------- | ------ | ---------------------------- |
+| intended appearance     | pass   | pass                         | pass                         | pass   | pass                         |
+| intended responsiveness | pass   | pass (footer logo bug fixed) | pass (footer logo bug fixed) | pass   | pass (footer logo bug fixed) |
 
 #### Testing all links on the site
 
