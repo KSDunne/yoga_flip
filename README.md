@@ -370,19 +370,38 @@ The structure of the grid part of the game stayed the same from the inception of
 
 - Height was specified in header style and the content then spilled over to the next element. This was fixed by removing the specific height and then the header height just changed automatically to fit the content which was much better
 
+#### Footer logo bug
+
 - During manual testing it was noticed on edge, firefox and opera that the logo didn't have the intended responsiveness. This was fixed by adding a class that was specific to the footer logo div and giving it a width with a percentage unit. So that the logo div would take up a set percentage of the width of the footer on all screens. See screen shots below for the illustration of this
 
 #### Footer logo bug pre the fix, is shown in the following screen shot
 
-![footer logo bug unfixed](docs/footer_logo_bug_unfixed.PNG)
+![footer logo bug before fix](docs/footer_logo_bug_unfixed.PNG)
 
 #### Footer logo bug after the fix, is shown in the following screen shot
 
 ![footer logo bug fixed](docs/footer_logo_bug_fixed.PNG)
 
+#### Background responsiveness bug on 'time out page' and 'win page'
+
+- During manual testing it was noticed that the backgrounds of the 'time out page' and the 'win page' were not responsive. There was a large white space showing at the bottom of the page. This could be due to the timer end and win page are hidden divs that are changed to flex display at certain events. If further time allowed, this bug would be further investigated, however a fix was to increase the height to greater than 100 vh. This fix worked and gave a nice effect in the end.
+
+![time out page before fix](docs/time_out_page_bug.PNG)
+
+![time out page after fix](docs/time_out_page_bug_fixed.PNG)
+
 ### Unfixed bugs
 
+- No unfixed bugs
+- However, I would call the 'background responsiveness bug fix', one that could be further improved upon in future work
+
 ### Supported screens and browsers
+
+- Chrome
+- Firefox
+- Microsoft Edge
+- Safari
+- Opera
 
 #### Screens
 
