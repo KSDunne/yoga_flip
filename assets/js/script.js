@@ -19,7 +19,7 @@ let myObj2 = {};
 let myScoreArray = [];
 let nums = [];
 
-// adding seconds to current date for countdown */
+// adding seconds to current date for countdown
 let countdownDate = new Date().setSeconds(new Date().getSeconds() + 100);
 
 // for timer
@@ -33,7 +33,7 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
-//every second after the first flip, the resetStartCountdown function is run, the '1000' in the following code block is allowing this
+// every second after the first flip, the resetStartCountdown function is run, the '1000' in the following code block is allowing this
 function resetStartCountdown() {
   startCountdown();
   timerInterval = setInterval(startCountdown, 1000);
@@ -110,7 +110,12 @@ function unflipCards() {
 }
 
 // credit for move counter code: https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master
-//move counter
+/*
+note on move counter code adaptation: get element by id was used here in yoga flip, whereas the alien memory game used query selector, 
+I also displayed the move counter on the time out page and win page
+*/
+
+// move counter
 moves = 0;
 moveContainer.innerHtml = 0;
 
@@ -119,14 +124,14 @@ function addMove() {
   moveContainer.innerHTML = moves;
 }
 
-//move counter 2
+// move counter 2
 
 function addMove2() {
   moves2++;
   moveContainer2.innerHTML = moves2;
 }
 
-//move counter 3
+// move counter 3
 
 function addMove3() {
   moves3++;
@@ -185,7 +190,7 @@ const startCountdown = () => {
   secondsElement.innerHTML = formatTime(seconds, "sec");
 };
 
-//endCountdown function is called right before the timer goes into negative numbers
+// endCountdown function is called right before the timer goes into negative numbers
 const endCountdown = () => {
   clearInterval(timerInterval);
   timerRunningContent.classList.add("hidden");
@@ -274,7 +279,11 @@ function winNumberReached() {
 }
 // end of logic for game win
 
-//start of logic for when the main reset button is clicked, this contains a defensive design because it includes an 'are you sure you want to reset the game? modal
+/*
+start of logic for when the main reset button is clicked, 
+this contains a defensive design because it includes an 'are you sure you want to reset the game? modal
+*/
+
 // full reset function
 function reset() {
   location.href = location.href;
