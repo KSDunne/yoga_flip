@@ -386,7 +386,11 @@ The structure of the grid part of the game stayed the same from the inception of
 
 - During manual testing it was noticed that the backgrounds of the 'time out page' and the 'win page' were not responsive. There was a large white space showing at the bottom of the page. This could be due to the timer end and win page are hidden divs that are changed to flex display at certain events. If further time allowed, this bug would be further investigated, however a fix was to increase the height to greater than 100 vh. This fix worked and gave a nice effect in the end.
 
+#### Background bug on time out page before the fix is shown in the screenshot below
+
 ![time out page before fix](docs/time_out_page_bug.PNG)
+
+#### Background bug on time out page after the fix is shown in the screenshot below
 
 ![time out page after fix](docs/time_out_page_bug_fixed.PNG)
 
