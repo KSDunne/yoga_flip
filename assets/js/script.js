@@ -15,7 +15,7 @@ let moves3 = 0;
 // retrieve score element for scoreboard / compare-board
 const scoreEl = document.getElementById("score");
 
-// start with an empty scores arrays
+// start with empty scores arrays
 let bestScores = [];
 let myObj2 = {};
 let myScoreArray = [];
