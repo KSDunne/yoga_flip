@@ -129,7 +129,7 @@ There is a reset button in an easy to find place, under the rules button. This b
 
 #### Responsive compare board with a local storage feature
 
-The compare board is a way for the user to track their own progress and see are they finishing the game is less moves now, than when they started playing the game. The compare board is responsive. It has a heading with a font awesome icon. The icon represents a barchart because the user is expected to compare their current score with the maximum of resent scores in local storage. It is displayed under the grid and buttons while on a mobile screen. It displays beside the main playing grid on tablet sized screens and upward.
+The compare board is a way for the user to track their own progress and see are they finishing the game in less moves now, than when they started playing the game. The compare board is responsive. It has a heading with a font awesome icon. The icon represents a barchart because the user is expected to compare their current score with the maximum of resent scores in local storage. It is displayed under the grid and buttons while on a mobile screen. It displays beside the main playing grid on tablet sized screens and upward.
 
 ![Responsive compare board on a large screen](docs/responsive_compare_board_large_screen.PNG)
 
