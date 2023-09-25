@@ -502,6 +502,8 @@ The structure of the grid part of the game stayed the same from the inception of
 
 [W3Schools Local Storage Code](https://www.w3schools.com/jsref/prop_win_localstorage.asp) - I got the syntax for local storage code here, in particular for setItem and getItem
 
+[W3Schools How To Create A Modal Using CSS](https://www.w3schools.com/howto/howto_css_modals.asp) - Code (HTML, CSS and JavaScript) was adapted from this source for the rules modal and the reset modal
+
 [CI Student Memory Card Game With Alien Theme](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) - Code was adapted from this source for the following features, timer start onclick of flipcard function, rules modal and reset modal
 
 [CI Student Memory Card Game With One Punch Man Theme](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game) - Grid section html and scoreboard styling were adapted from this source
