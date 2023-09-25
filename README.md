@@ -427,7 +427,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### How the background responsiveness bug on 'time out page' and 'win page' were fixed
 
-- During manual testing it was noticed that the backgrounds of the 'time out page' and the 'win page' were not responsive. There was a large white space showing at the bottom of the page. This could be due to the timer end and win page are hidden divs that are changed to flex display at certain events. If further time allowed, this bug would be further investigated, however a fix was to increase the height to greater than 100 vh. This fix worked and gave a nice effect in the end.
+- During manual testing it was noticed that the backgrounds of the 'time out page' and the 'win page' were not responsive. There was a large white space showing at the bottom of the page, this can be seen in the screenshot below. This could be due to the timer end and win page are hidden divs that are changed to flex display at certain events. If further time allowed, this bug would be further investigated, however a fix was to increase the height to greater than 100 vh. This fix worked and gave a nice effect in the end.
 
 #### Background bug on time out page before the fix is shown in the screenshot below
 
@@ -494,7 +494,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 ### Code
 
-[Grid Game Medium Tutorial](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/) - Main memory game logic and html code for the grid section area were adapted from this source
+[Grid Game Medium Tutorial](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/) - Main memory game logic and HTML code for the grid section area were adapted from this source
 
 [Countdown Timer Tutorial](https://github.com/adipurdila/countdown-timer/tree/main) - This tutorial used days, hours, minutes and seconds for their countdown timer, whereas I only used minutes and seconds. I also displayed the timer in multiple places, such as; above the main game, on the time out page and on the win page
 
@@ -506,7 +506,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 [CI Student Memory Card Game With Alien Theme](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) - Code was adapted from this source for the following features, timer start onclick of flipcard function, rules modal and reset modal
 
-[CI Student Memory Card Game With One Punch Man Theme](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game) - Grid section html and scoreboard styling were adapted from this source
+[CI Student Memory Card Game With One Punch Man Theme](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game) - Grid section HTML and scoreboard styling were adapted from this source
 
 ### Media
 
