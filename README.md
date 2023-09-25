@@ -129,7 +129,7 @@ There is a reset button in an easy to find place, under the rules button. This b
 
 #### Responsive compare board with a local storage feature
 
-The compare board has a heading with a font awesome icon. The icon represents a barchart because the user is expected to compare their current score with the maximum of resent scores in local storage. This is a way for the user to track their own progress and see are they finishing the game is less moves now than when they started playing the game. The compare board is responsive. It is displayed under the grid and buttons while on a mobile screen. It displays beside the main playing grid on tablet sized screens and upward.
+The compare board is a way for the user to track their own progress and see are they finishing the game is less moves now, than when they started playing the game. The compare board is responsive. It has a heading with a font awesome icon. The icon represents a barchart because the user is expected to compare their current score with the maximum of resent scores in local storage. It is displayed under the grid and buttons while on a mobile screen. It displays beside the main playing grid on tablet sized screens and upward.
 
 ![Responsive compare board on a large screen](docs/responsive_compare_board_large_screen.PNG)
 
@@ -219,7 +219,7 @@ The theme for this game is energising Vinyasa yoga. Bright colors were chosen, t
 
 #### Primary accessible color palette
 
-The primary colors for this page are: Purple / Green / Yellow. The purple color, #D47CFA, was chosen from the palette below. The palette below also shows that green is an accessible contrast to purple.
+The primary colors for this page are: Purple / Yellow / Green. The purple color, #D47CFA, was chosen from the palette below. The palette below also shows that green is an accessible contrast to purple.
 
 ![Primary accessible color palette](docs/primary_accessible_colors.webp)
 
@@ -427,7 +427,7 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### How the background responsiveness bug on 'time out page' and 'win page' were fixed
 
-- During manual testing it was noticed that the backgrounds of the 'time out page' and the 'win page' were not responsive. There was a large white space showing at the bottom of the page, this can be seen in the screenshot below. This could be due to the timer end and win page are hidden divs that are changed to flex display at certain events. If further time allowed, this bug would be further investigated, however a fix was to increase the height to greater than 100 vh. This fix worked and gave a nice effect in the end.
+- During manual testing it was noticed that the backgrounds of the 'time out page' and the 'win page' were not responsive. There was a large white space showing at the bottom of the page, this can be seen in the screenshot below. This could be due to the timer end and win page are hidden divs that are changed to flex display at certain events. If further time allowed, this bug would be further investigated. A fix was to increase the height to greater than 100 vh. This fix worked and gave a nice effect in the end.
 
 #### Background bug on time out page before the fix is shown in the screenshot below
 
