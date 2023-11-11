@@ -66,16 +66,18 @@ function flipCard() {
   // second click
   secondCard = this;
 
-  checkForMatch();
-  checkForMatchDisplay();
-  winCountFunction();
+  checkForMatch(firstCard, secondCard);
+  checkForMatchDisplay(firstCard, secondCard);
+  winCountFunction(firstCard, secondCard);
   winNumberReached();
 }
 
 // do the cards match?
 // ternary operator
-function checkForMatch() {
-  let isMatch = firstCard.dataset.image === secondCard.dataset.image;
+function checkForMatch(card1, card2) {
+  if (!card1 || !card2) return;
+
+  let isMatch = card1.dataset.image === card2.dataset.image;
   if (isMatch) {
     disableCards();
     return;
@@ -86,8 +88,8 @@ function checkForMatch() {
 function disableCards() {
   firstCard.removeEventListener("click", flipCard);
   secondCard.removeEventListener("click", flipCard);
-  checkForMatchDisplay();
-  winCountFunction();
+  checkForMatchDisplay(firstCard, secondCard);
+  winCountFunction(firstCard, secondCard);
   winNumberReached();
   resetBoard();
 }
@@ -209,8 +211,10 @@ const endCountdown = () => {
 
 // logic for showing the pose name
 
-function checkForMatchDisplay() {
-  let isMatchDisplay = firstCard.dataset.image === secondCard.dataset.image;
+function checkForMatchDisplay(card1, card2) {
+  if (!card1 || !card2) return;
+
+  let isMatchDisplay = card1.dataset.image === card2.dataset.image;
   if (isMatchDisplay) {
     editPoseName();
     return;
@@ -252,9 +256,11 @@ closebtn.onclick = function () {
 
 // start of logic for game win
 let winNumber = 0;
-function winCountFunction() {
-  let winCountFunction = firstCard.dataset.image === secondCard.dataset.image;
-  if (winCountFunction) {
+function winCountFunction(card1, card2) {
+  if (!card1 || !card2) return;
+
+  let winCountCondition = card1.dataset.image === card2.dataset.image;
+  if (winCountCondition) {
     increaseNumber();
     return;
   }
