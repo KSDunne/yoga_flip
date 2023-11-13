@@ -617,7 +617,7 @@ footer {
   cursor: pointer;
 }
 
-/* Style for 404 page */
+/* style for 404 page */
 .error-container {
   text-align: center;
 }
@@ -631,8 +631,13 @@ footer {
   font-weight: bold;
 }
 
-.error-link {
+.return-link-paragraph {
+  padding: 0% 0% 1% 0%;
+}
+
+.return-link {
   color: #0fff50;
+  font-weight: bold;
 }
 
 .error-image {
