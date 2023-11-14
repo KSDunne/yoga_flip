@@ -462,13 +462,13 @@ The structure of the grid part of the game stayed the same from the inception of
 
 #### How the favicon console log bug was fixed
 
-- A console log error was shown when the page was loading, due to a typo in the site.webmanifest file. The path to the android favicon files had a forward slash in them. The console log error disappeared when the slash was removed because the files could be accessed then.
+- A console log error was shown when the page was loading, due to a typo in the site.webmanifest file. The path to the android favicon files had a forward slash in them. The console log error disappeared when the slash was removed, because the files could be accessed then.
 
 ![file path typo fix](docs/bug_fix_file_path_typo.PNG)
 
 #### How the match console log bug was fixed
 
-Every time a match was made an error was shown on the console. This was because there were functions that were programmed to read a dataset and the dataset was not explicitly passed through the functions. This was fixed by explicitly passing cards 1 and 2 through the functions. See screenshot below.
+- Every time a match was made an error was shown on the console. This was because there were functions that were programmed to read a dataset and the dataset was not explicitly passed through the functions. This was fixed by explicitly passing cards 1 and 2 through the functions. In addition to this a line was added to check if the objects are null before trying to read them. See screenshot below.
 
 ![pass card objects](docs/bug_fix_pass_card_objects.PNG)
 
