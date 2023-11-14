@@ -193,6 +193,12 @@ The win page has a similar animation to the time out page but it appears when th
 
 ![Win page](docs/win_page.PNG)
 
+#### 404 page
+
+Users should be directed back to the index page if they come across a 404 page not found error. This is because it is not deemed to be good UX if the user has to use the browser’s back button to get back to the main website. Therefore, a custom 404 page has been added to this project. This website is hosted on github pages, therefore I did not need to add a custom route as github pages is smart enough to look in the appropriate project for a 404 page, before attempting to load their own one. The custom 404 page in the screenshot below should now load when there is a broken link or if a page does not exist.
+
+![Error page](docs/error_page_screenshot.PNG)
+
 ## Future Features
 
 - A 404 page
@@ -325,6 +331,10 @@ The structure of the grid part of the game stayed the same from the inception of
 - A score of 100 was reached for accessibility and SEO. High green scores were reached for performance and best practices.
 
 ![Index lighthouse](docs/lighthouse.PNG)
+
+- High green scores were reached under all categories for the 404 page. At the following address: [404](https://ksdunne.github.io/yoga_flip/404.html)
+
+![Error page lighthouse](docs/error_page_lighthouse.PNG)
 
 ### Manual testing
 
