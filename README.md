@@ -197,11 +197,12 @@ The win page has a similar animation to the time out page but it appears when th
 
 Users should be directed back to the index page if they come across a 404 page not found error. This is because it is not deemed to be good UX if the user has to use the browser’s back button to get back to the main website. Therefore, a custom 404 page has been added to this project. This website is hosted on github pages, therefore I did not need to add a custom route as github pages is smart enough to look in the appropriate project for a 404 page, before attempting to load their own one. The custom 404 page in the screenshot below should now load when there is a broken link or if a page does not exist.
 
-![Error page](docs/error_page_screenshot.PNG)
+![Error page large screen](docs/error_page_mon_screenshot.PNG)
+
+![Error page mobile screen](docs/error_page_phone_screenshot.PNG)
 
 ## Future Features
 
-- A 404 page
 - An option to input a username
 - Multiple levels of difficulty, where there are more tiles in the grid or a shorter countdown time (e.g. easy, medium or hard levels)
 - A scoreboard that displays the last 10 scores
